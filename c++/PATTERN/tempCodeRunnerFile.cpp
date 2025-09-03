@@ -1,11 +1,4 @@
-      int row, col;
-    for ( row = 1; row <=5; row++)
+for ( j = 1; j<= 5-i-1; i++)
     {
-        for ( col = 1; col <= row; col++)
-        {
-            cout<<"*"<<" ";
-        }
-        cout<<endl;
-        
-    } 
-}
+        cout<<i<<" ";
+    

@@ -3,19 +3,45 @@ using namespace std;
 
 int main()
 
-{
+// PATTERN  =   5
+            //  54
+            //  543
+            //  5432
+            //  54321 TO PRINT THISE PATTERN CODE BELOW------
+//  {
 // int i,j;
 // for ( i = 1; i <=5; i++)
 // {
-//     for ( j = 1; j<= 5-i-1; i++)
+//     for ( j = 5; j>=5-(i-1); j--)  //logic = 5-(row-1),
 //     {
 //         cout<<j<<" ";
 //     }
 //     cout<<endl;
+//  }
 // }
 
 
+
+
+// TO PRINT THISE PATTERN
+    //   12345
+    //   1234
+    //   123
+    //   12
+    //   1    CODE BELOW---------
+// {
+// int i,j;
+// for ( i = 1; i <=5; i++)
+// {
+//     for ( j = 1; j<= 5-(i-1); j++)
+//     {
+//         cout<<j<<" ";
+//     }
+//     cout<<endl;
+//  }
 // }
+
+
 
 
 // TO PRINT  
@@ -26,30 +52,15 @@ int main()
     // *    THISE TYPE OF PATTER CODE BELOWE------
 // {
 //     int i,j;
-
 //     for ( i = 5; i >=1; i--)
-//     {
-       
+//     {     
 //         for ( j = 1; j <= i; j++)
 //         {
 //               cout<<'*'<<" ";
 //         }
-//             cout<<endl;
-        
+//             cout<<endl;      
 //     }
 // }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -59,7 +70,6 @@ int main()
     // ccc
     // dddd
     // eeeee patter code belowe-------
-
 // {  
 // int row, col;
 // for ( row = 1; row <=10; row++)
@@ -95,13 +105,14 @@ int main()
 //     }
 
 
+
+
 // 06 TO PRINT THISE PATTER
     //   1
     //   21
     //   321
     //   4321
     //   54321     PTINT THISE PATTER BELLOW-------
-
 // {
 //   int row, col;
 
@@ -111,8 +122,7 @@ int main()
 //          {
 //              cout<<col<<" ";
 //          }
-//          cout<<endl;
-        
+//          cout<<endl;        
 //      } 
 //  }
 
@@ -121,7 +131,7 @@ int main()
 
 
 
-// TO PRINT TRANGULAR * ------
+// TO PRINT TRANGULAR * PYRAMID------
 
 // {
 //    int n=4;
@@ -137,6 +147,8 @@ int main()
 //     cout<<endl;
 //    }
 // }
+
+
 
 
   // TO PRINT SAME NUMBER IN ALL LINE ----
@@ -158,16 +170,14 @@ int main()
 
 
 
-
+// TO PRINT THE 5*5 MATRIX NUMBER------
 
 // {
-
 //     int i, j;
 // for ( i = 1; i <=5; i++) //j is here the number of line
 // {
 //     for ( j = 1; j <=5; j++) //j is here the number of number
 // {
-
 //     cout<<j;
 // }
 // cout<<endl;
