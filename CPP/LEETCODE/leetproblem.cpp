@@ -36,5 +36,19 @@
 // }
 
 
+// power of a number----
 
+// #include <iostream>
+// #include <cmath>   // pow function के लिए
+// using namespace std;
 
+// int main() {
+//     int n;
+//     cout << "Enter power: ";
+//     cin >> n;
+
+//     long long result = pow(3, n);  // 3^n calculate
+//     cout << "3^" << n << " = " << result << endl;
+
+//     return 0;
+// }
