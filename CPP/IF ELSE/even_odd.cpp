@@ -46,12 +46,44 @@
     
 // }
 
+// Reverse integer program------
 
+// #include<iostream>
+// #include <climits>
+// using namespace std;
+// int main(){
+//     int x,ans = 0,rem;
+//     while (x!=0)
+//     {   
+//           rem = x%10;
+//        x/=10;
+//        if (ans>INT_MAX/10 || ans<INT_MIN/10)
+       
+//        ans = ans*10 + rem;
+//     }
+//     return ans;  
+// }
+
+
+// power of two program------
 
 #include<iostream>
 using namespace std;
 int main(){
+    int n;
+    cout<<"Enter a number: ";
+    cin>>n;
+    cout<<n;
 
+if(n<1)
+        return 0;
 
-    int ans = 0,rem;
-}
+        while(n!=1){
+              if(n%2==1)
+              return 0;
+              n=n/2;
+
+        }
+      return 1;
+        
+    }

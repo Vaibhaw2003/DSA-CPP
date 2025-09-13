@@ -11,26 +11,30 @@
 
 //leep year program------
 
-#include<iostream>
-using namespace std;
-int main(){
-    int yer;
-    cout<<"Enter a year: ";
-    cin>>yer;
-    cout<<yer;
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int yer;
+//     cout<<"Enter a year: ";
+//     cin>>yer;
+//     cout<<yer;
 
-    if (yer%400==0)
-    {
-        cout<<yer<<" is a leap year";
-    }
-    else if (yer%100!=0 && yer%4==0)  //&& is used for and operation
-    {
-        cout<<yer<<" is a leap year";
-    }
+//     if (yer%400==0)
+//     {
+//         cout<<yer<<" is a leap year";
+//     }
+//     else if (yer%100!=0 && yer%4==0)  //&& is used for and operation
+//     {
+//         cout<<yer<<" is a leap year";
+//     }
 
-    else
-    {
-        cout<<yer<<" is not a leap year";
-    }
+//     else
+//     {
+//         cout<<yer<<" is not a leap year";
+//     }
     
-}
+// }
+
+
+
+
