@@ -45,3 +45,19 @@
 //     int name []={1,2,3,4,5};
 //     cout<<name[2]<<endl;
 // }
+
+
+//printing the ararys------
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int name [4]={1,2,3,4};
+//     for ( int i = 0; i < 4; i++)
+//     {
+//         cout<<name[i]<<endl;
+//     } 
+// }
+
+
+
