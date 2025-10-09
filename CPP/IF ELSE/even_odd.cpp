@@ -67,23 +67,81 @@
 
 // power of two program------
 
-#include<iostream>
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cout<<"Enter a number: ";
+//     cin>>n;
+//     cout<<n;
+
+// if(n<1)
+//         return 0;
+
+//         while(n!=1){
+//               if(n%2==1)
+//               return 0;
+//               n=n/2;
+//         }
+//       return 1;
+//     }
+
+
+
+// --------TO PRINT IF ELSE PROGRAM-------
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//   int a;
+//   cout<<"enter the number: ";
+//   cin>>a;
+//   if (a%2==0)
+//   {
+//     /* code */cout<<"even number";
+//   }else{
+//     cout<<"odd";
+//   }
+  
+// }
+
+
+// ------To print vowel and consonat-----
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//   char lett;
+//   cout<<"enter character";
+//   cin>>lett;
+
+//   if ( lett = "a" || lett = "e" || lett = " i" || lett = "o" || lett = " u")
+//   {
+//     /* code */ cout<<lett<<"vowel char"<<endl;
+//   }else{
+//     cout<<"consonent";
+//   }
+  
+
+#include <iostream>
 using namespace std;
-int main(){
-    int n;
-    cout<<"Enter a number: ";
-    cin>>n;
-    cout<<n;
 
-if(n<1)
-        return 0;
+int main() {
+    char ch;
+    cout << "Enter an alphabet: ";
+    cin >> ch;
 
-        while(n!=1){
-              if(n%2==1)
-              return 0;
-              n=n/2;
+    // Convert to lowercase to handle both upper and lower case letters
+    ch = tolower(ch);
 
-        }
-      return 1;
-        
+    if (ch >= 'a' && ch <= 'z') { // Check if it's an alphabet
+        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
+            cout << ch << " is a vowel." ;
+        else
+            cout << ch << " is a consonant.";
+    } else {
+        cout << "Invalid input! Please enter an alphabet." ;
     }
+
+    return 0;
+}
