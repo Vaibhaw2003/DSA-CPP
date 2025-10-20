@@ -31,21 +31,41 @@
 
 //------TO PRINT THE PATTERN OF * IN TRANGULAR FORM --------
 
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+//     int i,j,n;
+//     cout<<"enter the number: ";
+//     cin>>n;
+
+//     for ( i = 0; i < 5; i++)
+//     {
+//         for ( j = 0; j<n; j++)
+//         {
+//             cout<<j<<endl;
+//         }
+//         cout<<endl;  
+//     }
+// }
+
+
+//TO FIND THE ELEMENT IN ARRAY -------
+
 #include<iostream>
 using namespace std;
 
 int main(){
-    int i,j,n;
-    cout<<"enter the number: ";
-    cin>>n;
+    int x,n, array;
 
-    for ( i = 0; i < 5; i++)
+    for ( int i = 0; i < n; i++)
     {
-        for ( j = 0; j<n; j++)
+        if ( array[]==x)
         {
-            cout<<j<<endl;
+            return i; 
         }
-        cout<<endl;  
+        return -1;
+        
     }
 
 }
