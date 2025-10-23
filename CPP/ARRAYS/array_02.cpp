@@ -52,20 +52,35 @@
 
 //TO FIND THE ELEMENT IN ARRAY -------
 
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+//     int x,n, array;
+
+//     for ( int i = 0; i < n; i++)
+//     {
+//         if ( array[]==x)
+//         {
+//             return i; 
+//         }
+//         return -1;
+        
+//     }
+
+// }
+
+
+// to print hello ------
+
 #include<iostream>
 using namespace std;
-
 int main(){
-    int x,n, array;
-
-    for ( int i = 0; i < n; i++)
-    {
-        if ( array[]==x)
-        {
-            return i; 
-        }
-        return -1;
-        
-    }
-
+    int a ,b;
+    cout<<"enter the number: ";
+    cin>>a;
+    cout<<"enter the number b :";
+    cin>>b;
+    int sum = a+b;
+    cout<<sum;
 }
