@@ -73,14 +73,64 @@
 
 // to print hello ------
 
+//#include<iostream>
+//using namespace std;
+//int main(){
+  //  int a ,b;
+    //cout<<"enter the number: ";
+    //cin>>a;
+    //cout<<"enter the number b :";
+    //cin>>b;
+    //int sum = a+b;
+    //cout<<sum;
+//}
+
+// TO PRINT THE PATTERN OF * IN TRANGULAR FORM --------
+
+/* #include<iostream>
+using namespace std;
+
+int main(){
+  int i,j,n;
+  cout<<"enter the number:";
+  cin>>n;
+  cout<<"*"<<endl;  
+  for ( i = 1; i < n; i++)
+  {
+      for ( j = 0; j <= i; j++)
+      {
+          cout<<"*";
+      }
+      cout<<endl;  
+  }
+}*/
+
+
+// TO FIND THE ELEMENT IN ARRAY -------
+
 #include<iostream>
 using namespace std;
 int main(){
-    int a ,b;
-    cout<<"enter the number: ";
-    cin>>a;
-    cout<<"enter the number b :";
-    cin>>b;
-    int sum = a+b;
-    cout<<sum;
+    int x,n;
+    cout<<"enter the size of array:";
+    cin>>n;
+    int array[n];
+    cout<<"enter the elements of array:";
+    for ( int i = 0; i < n; i++)
+    {
+        cin>>array[i];
+    }
+    cout<<"enter the element to be searched:";
+    cin>>x;
+    for ( int i = 0; i < n; i++)
+    {
+        if (array[i]==x)
+        {
+            cout<<"element found at index:"<<i;
+            return 0;
+        }
+        
+    }
+    cout<<"element not found";
+    return -1;
 }
