@@ -202,29 +202,44 @@ int main(){
 
 // TO FIND THE ELEMENT IN ARRAY -------
 
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int x,n;
+//     cout<<"enter the size of aray:";
+//     cin>>n;
+//     int array[n];
+//     cout<<"enter the elements of array:";
+//     for (int i = 0; i < n; i++)
+//     {
+//         cin>>array[i];
+//     }
+//     cout<<"enter the element to be searched:";
+//     cin>>x; 
+//     for (int i = 0; i < n; i++)
+//     {
+//         if (array[i]==x)
+//         {
+//             cout<<"element found at index:"<<i;
+//             return 0;
+//         }
+
+//     } 
+//     cout<<"element not found";
+//     return -1;
+// }
+
+
+// to print the sum of two numbers -----    
 #include<iostream>
 using namespace std;
 int main(){
-    int x,n;
-    cout<<"enter the size of aray:";
-    cin>>n;
-    int array[n];
-    cout<<"enter the elements of array:";
-    for (int i = 0; i < n; i++)
-    {
-        cin>>array[i];
-    }
-    cout<<"enter the element to be searched:";
-    cin>>x; 
-    for (int i = 0; i < n; i++)
-    {
-        if (array[i]==x)
-        {
-            cout<<"element found at index:"<<i;
-            return 0;
-        }
-
-    } 
-    cout<<"element not found";
-    return -1;
+    int a,b;
+    cout<<"enter the number a:";
+    cin>>a;
+    cout<<"enter the number b : ";
+    cin>>b;
+    int sum = a+ b;
+    cout<<"the sum is :"<<sum;
+    
 }
