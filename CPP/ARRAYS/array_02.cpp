@@ -230,7 +230,8 @@ int main(){
 // }
 
 
-// to print the sum of two numbers -----    
+// to print the sum of two numbers ----- 
+/*    
 #include<iostream>
 using namespace std;
 int main(){
@@ -241,5 +242,21 @@ int main(){
     cin>>b;
     int sum = a+ b;
     cout<<"the sum is :"<<sum;
-    
+} */
+
+// TO PRINT THE PATTERN OF * IN TRANGULAR FORM --------
+#include<iostream>
+using namespace std;
+int main(){
+    int i,j,n;
+    cout<<"enter the number:";
+    cin>>n;
+    for ( i = 0; i < n; i++)
+    {
+        for ( j = 0; j <= i; j++)
+        {
+            cout<<"*";
+        }
+        cout<<endl;
+    }
 }
