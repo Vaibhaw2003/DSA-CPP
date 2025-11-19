@@ -245,37 +245,44 @@ int main(){
 } */
 
 // TO PRINT THE PATTERN OF * IN TRANGULAR FORM --------
-#include<iostream>
-using namespace std;
-int main(){
-    int i,j,n;
-    cout<<"enter the number:";
-    cin>>n;
-    for ( i = 0; i < n; i++)
-    {
-        for ( j = 0; j <= i; j++)
-        {
-            cout<<"*";
-        }
-        cout<<endl;
-    }
-}
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i,j,n;
+//     cout<<"enter the number:";
+//     cin>>n;
+//     for ( i = 0; i < n; i++)
+//     {
+//         for ( j = 0; j <= i; j++)
+//         {
+//             cout<<"*";
+//         }
+//         cout<<endl;
+//     }
+// }
 
-//// TO PRINT THE PATTERN OF * IN TRANGULAR FORM --------
-#include<iostream>
-using namespace std;
-int main(){
-    int i,j,n;
-    cout<<"enter the number:";
-    cin>>n;
-    for ( i = 0; i < n; i++)
-    {
-        for ( j = 0; j <= i; j++)
-        {
-            cout<<"*";
-        }
-        cout<<endl;
-    }
-}
+// //// TO PRINT THE PATTERN OF * IN TRANGULAR FORM --------
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i,j,n;
+//     cout<<"enter the number:";
+//     cin>>n;
+//     for ( i = 0; i < n; i++)
+//     {
+//         for ( j = 0; j <= i; j++)
+//         {
+//             cout<<"*";
+//         }
+//         cout<<endl;
+//     }
+// }
 
 //to print hello world
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    cout<<"hello harsh singh";
+}
