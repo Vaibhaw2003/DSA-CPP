@@ -280,9 +280,23 @@ int main(){
 
 //to print hello world
 
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+//     cout<<"hello harsh singh";
+// }
+
+// to pirnt * patter....
+
 #include<iostream>
 using namespace std;
-
 int main(){
-    cout<<"hello harsh singh";
+    int i,j,n;
+    cout<<"enter the number: ";
+    cin>>n;
+    for(i = 1; i<=n; i++)
+    {
+        cout<<"*"<<endl;
+    }
 }
