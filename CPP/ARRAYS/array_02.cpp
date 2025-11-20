@@ -289,14 +289,33 @@ int main(){
 
 // to pirnt * patter....
 
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i,j,n;
+//     cout<<"enter the number: ";
+//     cin>>n;
+//     for(i = 1; i<=n; i++)
+//     {
+//         cout<<"*"<<endl;
+//     }
+// }
+
+
+// to print trangular * patter....
+
 #include<iostream>
 using namespace std;
 int main(){
-    int i,j,n;
-    cout<<"enter the number: ";
-    cin>>n;
-    for(i = 1; i<=n; i++)
+    int i,j,k;
+    for ( i = 0; i <6; i++)
     {
-        cout<<"*"<<endl;
+        for ( j = 0; j <i; j++)
+        {
+            cout<<"*";
+        }
+        cout<<endl;
+        
     }
+    
 }
