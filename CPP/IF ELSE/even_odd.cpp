@@ -123,25 +123,67 @@
 //   }
   
 
-#include <iostream>
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     char ch;
+//     cout << "Enter an alphabet: ";
+//     cin >> ch;
+
+//     // Convert to lowercase to handle both upper and lower case letters
+//     ch = tolower(ch);
+
+//     if (ch >= 'a' && ch <= 'z') { // Check if it's an alphabet
+//         if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
+//             cout << ch << " is a vowel." ;
+//         else
+//             cout << ch << " is a consonant.";
+//     } else {
+//         cout << "Invalid input! Please enter an alphabet." ;
+//     }
+
+//     return 0;
+// }
+
+
+// to print age is under 18 or note--------
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int a;
+//     cout<<"enter your age: ";
+//     cin>>a;
+//     if (a<18)
+//     {
+//         /* code */cout<<"your age is under 18..";
+//     }else if (a=18)
+//     {
+//         /* code */cout<<"you are eligible";
+//     }else{
+//         cout<<"you are mature ";
+//     }
+// }
+
+// to print the marks of the student.......
+
+#include<iostream>
 using namespace std;
-
-int main() {
-    char ch;
-    cout << "Enter an alphabet: ";
-    cin >> ch;
-
-    // Convert to lowercase to handle both upper and lower case letters
-    ch = tolower(ch);
-
-    if (ch >= 'a' && ch <= 'z') { // Check if it's an alphabet
-        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
-            cout << ch << " is a vowel." ;
-        else
-            cout << ch << " is a consonant.";
-    } else {
-        cout << "Invalid input! Please enter an alphabet." ;
-    }
-
-    return 0;
+int main(){
+    int m;
+    cout<<"enter the marks of the subject : ";
+    cin>>m;
+    if (m>=90)
+    {
+        /* code */cout<<"A++";
+    }else if (m>=80)
+    {
+        /* code */cout<<"A";
+    }else if (m>=60)
+    {
+        /* code */cout<<"B";
+    }else{
+        cout<<"fail";
+    }  
 }
