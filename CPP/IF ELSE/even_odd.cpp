@@ -189,17 +189,31 @@
 // }
 
 // to print the even or odd number......
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int a;
+//     cout<<"enter the number: ";
+//     cin>>a;
+//     if (a%2==0)
+//     {
+//         /* code */cout<<"even number : ";
+//     }else{
+//         cout<<"odd number : ";
+//     }
+// }
+
+// to print the table of any number.....
+
 #include<iostream>
 using namespace std;
 int main(){
-    int a;
-    cout<<"enter the number: ";
-    cin>>a;
-    if (a%2==0)
+    int i, num;
+    cout<<"enter the number : ";
+    cin>>num;
+    for ( i = 1; i < 11; i++)
     {
-        /* code */cout<<"even number : ";
-    }else{
-        cout<<"odd number : ";
+        cout<<num*i<<endl;
     }
-    
 }
