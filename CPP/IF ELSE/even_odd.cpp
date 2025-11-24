@@ -168,22 +168,38 @@
 
 // to print the marks of the student.......
 
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int m;
+//     cout<<"enter the marks of the subject : ";
+//     cin>>m;
+//     if (m>=90)
+//     {
+//         /* code */cout<<"A++";
+//     }else if (m>=80)
+//     {
+//         /* code */cout<<"A";
+//     }else if (m>=60)
+//     {
+//         /* code */cout<<"B";
+//     }else{
+//         cout<<"fail";
+//     }  
+// }
+
+// to print the even or odd number......
 #include<iostream>
 using namespace std;
 int main(){
-    int m;
-    cout<<"enter the marks of the subject : ";
-    cin>>m;
-    if (m>=90)
+    int a;
+    cout<<"enter the number: ";
+    cin>>a;
+    if (a%2==0)
     {
-        /* code */cout<<"A++";
-    }else if (m>=80)
-    {
-        /* code */cout<<"A";
-    }else if (m>=60)
-    {
-        /* code */cout<<"B";
+        /* code */cout<<"even number : ";
     }else{
-        cout<<"fail";
-    }  
+        cout<<"odd number : ";
+    }
+    
 }
