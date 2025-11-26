@@ -206,14 +206,78 @@
 
 // to print the table of any number.....
 
-#include<iostream>
-using namespace std;
-int main(){
-    int i, num;
-    cout<<"enter the number : ";
-    cin>>num;
-    for ( i = 1; i < 11; i++)
-    {
-        cout<<num*i<<endl;
-    }
-}
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i, num;
+//     cout<<"enter the number : ";
+//     cin>>num;
+//     for ( i = 1; i < 11; i++)
+//     {
+//         cout<<num*i<<endl;
+//     }
+// }
+
+// to print the 100 to 200 number....
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i;
+//     cout<<"the counnting number of : ";
+//     for ( i = 100; i < 201; i++)
+//     {
+//         /* code */cout<<i<<endl;
+//     }
+    
+// }
+
+// to print the multiple of 5 number .....
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i, num;
+//     cout<<"the multiple of given number : ";
+//     cin>>num;
+//     for ( i = 0; i <11; i++)
+//     {
+//         /* code */cout<<i*5<<endl;
+//     }
+// }
+
+// Print First N Natural Numbers-------------
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int num, i;
+//     cout<<"enter the number n : ";
+//     cin>>num;
+//     for ( i = 0; i <= num; i++)
+//     {
+//         /* code */cout<<i<<endl;
+//     }
+    
+// }
+
+//Find Sum of First N Natural Numbers----------
+
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     int N, sum = 0;
+
+//     cout << "Enter N: ";
+//     cin >> N;
+
+//     for (int i = 1; i <= N; i++) {
+//         sum += i;   // sum = sum + i
+//     }
+
+//     cout << "Sum of first " << N << " natural numbers = " << sum;
+
+//     return 0;
+// }
+
+//
