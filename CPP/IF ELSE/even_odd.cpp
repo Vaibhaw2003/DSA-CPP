@@ -280,4 +280,93 @@
 //     return 0;
 // }
 
-//
+// Print Even Numbers From 1 to N---------
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n ,i;
+//     cout<<"enter the number : ";
+//     cin>>n;
+//     for ( i = 1; i < n; i++)
+//     {
+//         if (i%2==0)
+//         {
+//             /* code */cout <<"even number is: "<<i<<endl;
+//         }   
+//     }
+// }
+
+
+// Count Number of Digits in a Number-----------
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int count = 0, n;
+//     cout<<"enter the number : ";
+//     cin>>n;
+//     if (n==0)
+//     {
+//         /* code */count =1;
+//     }else{
+//         while (n!=0)
+//         {
+//             n = n/10;
+//             count ++;
+//         }
+//         cout<<" number of digit is :"<< count;   
+//     }
+// }
+
+// Find Largest of Two Numbers--------
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int a, b;
+//     cout<<"enter the a number : ";
+//     cin>>a;
+//     cout<<"enter the number b : ";
+//     cin>>b;
+//     if (a>b)
+//     {
+//         /* code */cout<<"a is greater ";
+//     }else{
+//         cout<<"b is greater ";
+//     }  
+// }
+
+
+//Check Whether a Number is Positive, Negative or Zero----------
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int num;
+//     cout<<"enter the number : ";
+//     cin>>num;
+//     if (num>=0)
+//     {
+//         /* code */cout<<"positive number";
+//     }else
+//     {
+//         cout<<"negative number";
+//     }
+// }
+
+// Reverse a Number---------
+
+#include<iostream>
+using namespace std;
+int main(){
+    int n, rev=0 , digit;
+    cout<<"enter the number : ";
+    cin>>n;
+    while (n!=0)
+    {
+        digit = n%10;
+        rev = rev*10 + digit;
+        n= n/10;
+    }cout<<rev;
+}
