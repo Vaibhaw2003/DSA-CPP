@@ -48,6 +48,7 @@ int main() {
 
 
 // binary search------
+/*  
 
 #include <iostream>
 using namespace std;
@@ -84,3 +85,40 @@ int main() {
     cout << "Element not found";
     return 0;
 }
+*/
+
+//hashing------
+
+#include <iostream>
+#include <unordered_set>
+using namespace std;
+
+int main() {
+    int n, key;
+    cout << "Enter size: ";
+    cin >> n;
+
+    int arr[n];
+    cout << "Enter elements: ";
+    for(int i = 0; i < n; i++)
+        cin >> arr[i];
+
+    cout << "Enter element to find: ";
+    cin >> key;
+
+    // Create a hash set
+    unordered_set<int> hashSet;
+
+    // Insert all elements in hash set (O(n))
+    for(int i = 0; i < n; i++)
+        hashSet.insert(arr[i]);
+
+    // Check if key exists (O(1))
+    if(hashSet.find(key) != hashSet.end())
+        cout << "Element found!";
+    else
+        cout << "Element not found!";
+
+    return 0;
+}
+
