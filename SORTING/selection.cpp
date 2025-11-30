@@ -34,6 +34,7 @@ int main(){
 */
 
 //binary search after selection sort--------
+/*
 #include <iostream>
 using namespace std;
 int main(){
@@ -54,6 +55,31 @@ int main(){
     for ( i = 0; i < 6; i++)
     {
         cout<<arr[i]<<" ";
+    } 
+}
+*/
+
+//binary search after selection sort--------
+
+#include <iostream>
+using namespace std;
+int main(){
+    int i,j;
+    int arr[6] = {29,10,14,37,13,25};
+    for ( i = 0; i < 5; i++)
+    {
+        int index = i;
+        for ( j = i+ 1; j <6; j++)
+        {
+            if (arr[j]< arr[index])
+            {
+                index = j;
+            }   
+        }   
+        swap(arr[index], arr[i]);
     }
-    
+    for ( i = 0; i < 6; i++)
+    {
+        cout<<arr[i]<<" ";
+    } 
 }
