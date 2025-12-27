@@ -112,7 +112,7 @@
 // }
 
 // to print another * pattern--------
-
+/*  
 #include<iostream>
 using namespace std;
 int main(){
@@ -123,12 +123,26 @@ int main(){
         {
             cout<<"@"<<" ";
         }
-        cout<<endl;
-        
+        cout<<endl;   
     }
-    
 }
+*/
 
+#include<iostream>
+using namespace std;
+
+int main(){
+    int num, i;
+
+    cout<<"enter the number i will give you table : ";
+    cin>> num;
+
+    for ( i = 1; i <=10; i++)
+    {
+        /* code */cout<<num *i<<endl;
+    }
+    cout<<endl;
+}
 
 
 
