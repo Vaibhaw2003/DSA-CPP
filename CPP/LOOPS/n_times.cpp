@@ -128,6 +128,9 @@ int main(){
 }
 */
 
+
+/*  TO PRINT THE TABLE OF N NUMBER MULTIPLIED BY ITSELF
+
 #include<iostream>
 using namespace std;
 
@@ -139,10 +142,28 @@ int main(){
 
     for ( i = 1; i <=10; i++)
     {
-        /* code */cout<<num *i<<endl;
+        cout<<num *i<<endl;
     }
     cout<<endl;
 }
+
+*/
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cout << "Enter how many multiples of 4 you want: ";
+    cin >> n;
+
+    for (int i = 1; i <= n; i++) {
+        cout << 4 * i << " ";
+    }
+    return 0;
+}
+
 
 
 
