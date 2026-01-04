@@ -150,21 +150,38 @@ int main(){
 */
 
 
-#include <iostream>
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     int n;
+//     cout << "Enter how many multiples of 4 you want: ";
+//     cin >> n;
+
+//     for (int i = 1; i <= n; i++) {
+//         cout << 4 * i << " ";
+//     }
+//     return 0;
+// }
+
+// TO PRINT ODD NUMBERS TILL N
+
+#include<iostream>
 using namespace std;
+int main(){
+    int n, i;
+    cout<<"enter the number : ";
+    cin>>n;
 
-int main() {
-    int n;
-    cout << "Enter how many multiples of 4 you want: ";
-    cin >> n;
-
-    for (int i = 1; i <= n; i++) {
-        cout << 4 * i << " ";
-    }
-    return 0;
+    for ( i = 1; i <=n; i++)
+    {
+        if (i%2!=0)
+        {
+            cout<<i<<" ";
+        }
+        
+    }cout<<endl;
 }
-
-
 
 
 
