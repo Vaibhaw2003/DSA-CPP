@@ -185,22 +185,37 @@ int main(){
 
 // TO PRINT EVEN NUMBERS TILL N
 
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i, n;
+//     cout<<"enter the number : ";
+//     cin>>n;
+//     for ( i = 1; i <=n; i++)
+//     {
+//         if (i%2==0)
+//         {
+//             cout<<i<<"even number "<<endl;
+//         }else{
+//             cout<<"odd number"<<i<<endl;
+//         }
+//     }
+// }
+
 #include<iostream>
 using namespace std;
-int main(){
-    int i, n;
+int main(){ 
+    int n, i, sum=0;
     cout<<"enter the number : ";
     cin>>n;
+
     for ( i = 1; i <=n; i++)
     {
-        if (i%2==0)
-        {
-            cout<<i<<"even number "<<endl;
-        }else{
-            cout<<"odd number"<<i<<endl;
-        }
+        sum = sum + i;
     }
+    cout<<"the sum is : "<<sum<<endl;
 }
+
 
 
 
