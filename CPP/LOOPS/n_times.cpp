@@ -229,18 +229,33 @@ int main(){
 //     cout<<"the factorial is : "<<fact<<endl;
 // }   
 
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int n, i;
+//     cout << "Enter the number: ";
+//     cin >> n;
+//     for (i = 1; i <= 10; i++) {
+//         cout << n << " x " << i << " = " << n * i << endl;
+//     }
+//     return 0;
+// }   
+
+
 #include <iostream>
 using namespace std;
 int main() {
-    int n, i;
-    cout << "Enter the number: ";
-    cin >> n;
-    for (i = 1; i <= 10; i++) {
-        cout << n << " x " << i << " = " << n * i << endl;
+    int n, i, fact = 1;
+    cout<<"enter the number : ";
+    cin>>n;
+    for ( i = 1; i <= 10; i++)
+    {
+        fact = fact * i;
     }
-    return 0;
-}   
+    cout<<"the factorial is : "<<fact<<endl;
+}
 
+    
 
 
 
