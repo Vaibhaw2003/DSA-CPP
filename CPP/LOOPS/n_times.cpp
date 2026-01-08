@@ -202,19 +202,45 @@ int main(){
 //     }
 // }
 
-#include<iostream>
-using namespace std;
-int main(){ 
-    int n, i, sum=0;
-    cout<<"enter the number : ";
-    cin>>n;
+// #include<iostream>
+// using namespace std;
+// int main(){ 
+//     int n, i, sum=0;
+//     cout<<"enter the number : ";
+//     cin>>n;
 
-    for ( i = 1; i <=n; i++)
-    {
-        sum = sum + i;
+//     for ( i = 1; i <=n; i++)
+//     {
+//         sum = sum + i;
+//     }
+//     cout<<"the sum is : "<<sum<<endl;
+// }
+
+// #include<iostream> 
+// using namespace std;
+// int main(){
+//     int n, i, fact=1;
+//     cout<<"enter the number : ";
+//     cin>>n; 
+//     for ( i = 1; i <=n; i++)
+//     {
+//         fact = fact * i;
+//     }
+//     cout<<"the factorial is : "<<fact<<endl;
+// }   
+
+#include <iostream>
+using namespace std;
+int main() {
+    int n, i;
+    cout << "Enter the number: ";
+    cin >> n;
+    for (i = 1; i <= 10; i++) {
+        cout << n << " x " << i << " = " << n * i << endl;
     }
-    cout<<"the sum is : "<<sum<<endl;
-}
+    return 0;
+}   
+
 
 
 
