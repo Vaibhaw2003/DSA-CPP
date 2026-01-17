@@ -241,7 +241,7 @@ int main(){
 //     return 0;
 // }   
 
-
+/*  
 #include <iostream>
 using namespace std;
 int main() {
@@ -254,6 +254,20 @@ int main() {
     }
     cout<<"the factorial is : "<<fact<<endl;
 }
+*/
+
+#include <iostream>
+using namespace std;
+int main() {
+    int n, i;
+    cout<<"enter the number : ";
+    cin>>n;
+    for ( i = 1; i <= n; i++)
+    {
+       cout<<n*i;
+    }
+    cout<<"the multiple of n no. is : "<<endl;
+}   
 
     
 
