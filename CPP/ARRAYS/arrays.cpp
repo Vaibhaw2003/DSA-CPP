@@ -59,9 +59,30 @@
 //     } 
 // }
 
+
+// TO TAKE INPUT FROM THE USER AND PRINT THE ARRAY ELEMENTS-----
+
+// #include <iostream>
+// using namespace std;    
+// int main(){
+//     int arr[5];
+//     cout<<"enter the elements of array : "<<endl;
+//     for ( int i = 0; i < 5; i++)
+//     {
+//         cin>>arr[i];
+//     }
+//     cout<<"the elements of array are : "<<endl;
+//     for ( int i = 0; i < 5; i++)
+//     {
+//         cout<<arr[i]<<endl;
+//     }
+// }
+
+// TO PRINT THE SUM OF ARRAY ELEMENTS-----
+
 #include <iostream>
-using namespace std;    
-int main(){
+using namespace std;
+int main(){ 
     int arr[5];
     cout<<"enter the elements of array : "<<endl;
     for ( int i = 0; i < 5; i++)
@@ -73,8 +94,4 @@ int main(){
     {
         cout<<arr[i]<<endl;
     }
-    
 }
-
-
-

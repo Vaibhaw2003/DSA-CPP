@@ -1,7 +1,7 @@
-#include<iostream>
-using namespace std;
+// #include<iostream>
+// using namespace std;
 
-int main()
+// int main()
 
 // PATTERN  =   5
             //  54
@@ -197,3 +197,68 @@ int main()
 // cout<<endl;
 // }
 // }
+
+
+// TO PRINT SINGLE * -------
+
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     cout<<"*";  
+// }
+
+// TO PRINT 5 * -------
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     for ( int i = 1; i < 5; i++)
+//     {
+//         cout<<" *"<<endl;
+//     }  
+// }
+
+// TO PRINT 5*5  * MATRIX-------
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     for ( int i = 1; i <=5; i++)
+//     {
+//         for ( int j = 1; j <=5; j++)
+//         {
+//             cout<<"*";
+//         }
+//         cout<<endl;
+//     }  
+// }
+
+//TO PRINT THE TRIANGLE  * PATTERN-------
+
+// #include <iostream>
+// using namespace std;    
+// int main(){
+//     for ( int i = 1; i <=5; i++)
+//     {
+//         for ( int j = 1; j <=i; j++)
+//         {
+//             cout<<"*";
+//         }
+//         cout<<endl;
+//     }
+// }
+
+// TO PRINT THE REVERSE TRIANGLE  * PATTERN------- 
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n=5;
+    for ( int i = 1; i <=n; i++)
+    {
+        for ( int j = n; j >= i; j--)
+        {
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+}
