@@ -248,17 +248,39 @@
 
 // TO PRINT THE REVERSE TRIANGLE  * PATTERN------- 
 
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int n=5;
+//     for ( int i = 1; i <=n; i++)
+//     {
+//         for ( int j = n; j >= i; j--)
+//         {
+//             cout<<"*";
+//         }
+//         cout<<endl;
+//     }
+// }
+
+// To PRINT THE MIRROR TRIANGLE  * PATTERN-------
+
 #include <iostream>
 using namespace std;
 int main()
+{    
+int i,j,k;
+
+for ( i = 1; i < 6; i++)
 {
-    int n=5;
-    for ( int i = 1; i <=n; i++)
+    for ( j = 1; j < 6-i; j++)
     {
-        for ( int j = n; j >= i; j--)
-        {
-            cout<<"*";
-        }
-        cout<<endl;
+        cout<<" ";
     }
+    for ( k = 1; k <= i; k++)
+    {
+        cout<<"*";  
+    }
+    cout<<endl;
+}
 }
