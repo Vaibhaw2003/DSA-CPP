@@ -265,22 +265,93 @@
 
 // To PRINT THE MIRROR TRIANGLE  * PATTERN-------
 
+// #include <iostream>
+// using namespace std;
+// int main()
+// {    
+// int i,j,k;
+
+// for ( i = 1; i < 6; i++)
+// {
+//     for ( j = 1; j < 6-i; j++)
+//     {
+//         cout<<" ";
+//     }
+//     for ( k = 1; k <= i; k++)
+//     {
+//         cout<<"*";  
+//     }
+//     cout<<endl;
+// }
+// }
+
+// TO PRINT THE REVERSE MIRROR TRIANGLE  * PATTERN-------
+
+// #include <iostream>
+// using namespace std;
+// int main(){
+// int i,j,k;
+// for ( i = 1; i <=5; i++)
+// {
+//     for ( j = 1; j < i; j++)
+//     {
+//         cout<<" ";
+//     }
+//     for ( k = 5; k >= i; k--)
+//     {
+//         cout<<"*";
+//     }
+//     cout<<endl;
+// }
+// }
+
+
+// TO PRINT THE NUMBER PATTERN-------
+
+// #include <iostream>
+// using namespace std;
+// int main(){
+// int i, j ;
+// for ( i = 5; i >=1; i--)
+// {
+//     for ( j = 1; j <=i; j++)
+//     {
+//         cout<<j<<"*";
+//     }
+//     cout<<endl; 
+// }
+// }
+
+//TO PRINT THE BOUNDARY OF SQUARE MATRIX-------
+
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     int n=5;
+//     for ( int i = 1; i <=n; i++)
+//     {
+//         for ( int j = 1; j <=n; j++)
+//         {
+//            cout<<((i==1 || i==n || j==1 || j==n) ? "*" : " ");  
+//         }
+//         cout<<endl;
+//     }
+// }
+
+
+// TO PRINT THE ROW AND ROW NUMBER PATTERN-------
 #include <iostream>
 using namespace std;
-int main()
-{    
-int i,j,k;
+int main(){
+    int i, j ;
+    for ( i = 1; i <=5; i++)
+    {
+        for ( j = 1; j <=i; j++)
+        {
+            cout<<i<<" ";
+        }
+        cout<<endl; 
+    }
+}
 
-for ( i = 1; i < 6; i++)
-{
-    for ( j = 1; j < 6-i; j++)
-    {
-        cout<<" ";
-    }
-    for ( k = 1; k <= i; k++)
-    {
-        cout<<"*";  
-    }
-    cout<<endl;
-}
-}
+

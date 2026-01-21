@@ -39,6 +39,7 @@
 
 
 // CPP program to demonstrate array access---------
+
 // #include<iostream>
 // using namespace std;
 // int main(){
@@ -80,18 +81,78 @@
 
 // TO PRINT THE SUM OF ARRAY ELEMENTS-----
 
+// #include <iostream>
+// using namespace std;
+// int main(){ 
+//     int arr[5];
+//     cout<<"enter the elements of array : "<<endl;
+//     for ( int i = 0; i < 5; i++)
+//     {
+//         cin>>arr[i];
+//     }
+//     cout<<"the elements of array are : "<<endl;
+//     for ( int i = 0; i < 5; i++)
+//     {
+//         cout<<arr[i]<<endl;
+//     }
+// }
+
+// TO PRINT THE MAXIMUM ELEMENT IN THE ARRAY-----
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     int arr[5] ={2,4,6,8,3};
+//     int max = arr[0];
+//     for ( int i = 1; i < 5; i++)
+//     {
+//         if (arr[i]>max)
+//         {
+//             max=arr[i];
+//         }
+//     }cout<<"the maximum element in the array is : "<<max<<endl;
+// }
+    
+// TO PRINT THE MINIMUM ELEMENT IN THE ARRAY-----
+
+// #include <iostream>
+// using namespace std;
+// int main(){ 
+//     int arr[5] ={2,4,6,8,3};
+//     int min = arr[0];
+//     for ( int i = 1; i < 5; i++)
+//     {
+//         if (arr[i]<min)
+//         {
+//             min=arr[i];
+//         }
+//     }cout<<"the minimum element in the array is : "<<min<<endl;
+// }
+
+
+// TO FIND ELEMENT IS PRESENT IN THE ARRAY OR NOT---------
+
 #include <iostream>
 using namespace std;
-int main(){ 
-    int arr[5];
-    cout<<"enter the elements of array : "<<endl;
+int main(){
+    int arr[5] ={2,4,6,8,3};
+    int n;
+    cout<<"enter the element to be searched : "<<endl;
+    cin>>n;
+    bool found = false;
     for ( int i = 0; i < 5; i++)
     {
-        cin>>arr[i];
+        if (arr[i]==n)
+        {
+            found = true;
+            break;
+        }
     }
-    cout<<"the elements of array are : "<<endl;
-    for ( int i = 0; i < 5; i++)
+    if (found)
     {
-        cout<<arr[i]<<endl;
+        cout<<"element is present in the array "<<endl;
+    }
+    else
+    {
+        cout<<"element is not present in the array "<<endl;
     }
 }
