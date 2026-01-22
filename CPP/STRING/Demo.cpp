@@ -98,24 +98,63 @@
 // }
 
 // TO compare two strings-------------
+
+// #include<iostream>
+// #include<string>
+// using namespace std;
+// int main(){ 
+//     string name1 = "hello";
+//     string name2 = "hello";
+//     if(name1 == name2){
+//         cout<<"strings are equal"<<endl;
+//     }
+//     else{
+//         cout<<"strings are not equal"<<endl;
+    
+//     } 
+//     for (int i = 0; i < name1.length(); i++)
+//     {
+//         cout << name1[i] << endl;
+//     }
+// }
+
+// TO FIND THE space OF STRING ----------
+
+// #include<iostream>
+// #include<string>
+// using namespace std;
+// int main(){
+//     int count = 0;
+//     cout<<"enter the name : ";
+//     string name;
+//     getline(cin,name);
+   
+//     for (int i = 0; i < name.length(); i++)
+//     {
+//         if (name[i]== ' ')
+//         {
+//              count++;
+//         }   
+//     }
+//     cout<<"number of space is : "<< count;
+// }
+
+// TO PRINT THE * IN PLACE OF GAP--------
+
 #include<iostream>
 #include<string>
 using namespace std;
-int main(){ 
-    string name1 = "hello";
-    string name2 = "hello";
-    if(name1 == name2){
-        cout<<"strings are equal"<<endl;
-    }
-    else{
-        cout<<"strings are not equal"<<endl;
-    
-    } 
-    for (int i = 0; i < name1.length(); i++)
+int main(){
+    int count =0;
+    string name;
+    cout<<"enter the name : ";
+    getline(cin, name);
+    for (int i = 0; i < name.length(); i++)
     {
-        cout << name1[i] << endl;
+        if (name[i]==' ')
+        {
+            count++;
+        } 
     }
-
-    
+    cout<<" the size of space is : "<< count;
 }
-
