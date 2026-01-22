@@ -340,18 +340,77 @@
 
 
 // TO PRINT THE ROW AND ROW NUMBER PATTERN-------
-#include <iostream>
-using namespace std;
-int main(){
-    int i, j ;
-    for ( i = 1; i <=5; i++)
-    {
-        for ( j = 1; j <=i; j++)
-        {
-            cout<<i<<" ";
-        }
-        cout<<endl; 
-    }
-}
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     int i, j ;
+//     for ( i = 1; i <=5; i++)
+//     {
+//         for ( j = 1; j <=i; j++)
+//         {
+//             cout<<i<<" ";
+//         }
+//         cout<<endl; 
+//     }
+// }
+
+
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     int i, j ;
+//     for ( i = 1; i <=5; i++)
+//     {
+//         for ( j = 1; j <=i; j++)
+//         {
+//             cout<<j;
+//         }
+//         cout<<endl;  
+//     }
+// }
+
+
+
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     int i, j ;
+//     for ( i = 5; i >=1; i--)
+//     {
+//         for ( j = 1; j <=i; j++)
+//         {
+//             cout<<j;
+//         }
+//         cout<<endl;  
+//     }
+// }
+
+//TO PRINT THE PYRAMIDE-----
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i,j,k,l;
+//     for ( i = 1; i <=6;i++)
+//     {
+//         for ( l = 1; l <= 6-i; l++)
+//         {
+//             cout<<" ";
+//         }
+        
+//         for ( j = 1; j <= i; j++)
+//         {
+//             cout<<"(";
+//         }
+//         cout<<"*";
+//         for ( k = 1; k <= i;k++)
+//         {
+//             cout<<")";
+//         }
+//         cout<<endl;
+//     }  
+// }
+
+
 
 
