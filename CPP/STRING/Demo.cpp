@@ -141,20 +141,42 @@
 
 // TO PRINT THE * IN PLACE OF GAP--------
 
+// #include<iostream>
+// #include<string>
+// using namespace std;
+// int main(){
+//     int count =0;
+//     string name;
+//     cout<<"enter the name : ";
+//     getline(cin, name);
+//     for (int i = 0; i < name.length(); i++)
+//     {
+//         if (name[i]==' ')
+//         {
+//             count++;
+//         } 
+//     }
+//     cout<<" the size of space is : "<< count;
+// }
+
+
+//TO CAPTILIZE THE GIVEN LAETTER------
+
 #include<iostream>
-#include<string>
 using namespace std;
 int main(){
-    int count =0;
-    string name;
+    int i;
+    char str[30] ;
     cout<<"enter the name : ";
-    getline(cin, name);
-    for (int i = 0; i < name.length(); i++)
+    cin>>str;
+    for ( i = 0; str[i]!='\0'; i++)
     {
-        if (name[i]==' ')
+        if (str[i]>=97 && str[i]<=122)
         {
-            count++;
-        } 
+            str[i]= str[i]-32;
+        }
+        
     }
-    cout<<" the size of space is : "<< count;
+    cout<<"the letter is capitaal: "<<str;
+    
 }
