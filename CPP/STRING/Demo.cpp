@@ -162,21 +162,78 @@
 
 //TO CAPTILIZE THE GIVEN LAETTER------
 
-#include<iostream>
-using namespace std;
-int main(){
-    int i;
-    char str[30] ;
-    cout<<"enter the name : ";
-    cin>>str;
-    for ( i = 0; str[i]!='\0'; i++)
-    {
-        if (str[i]>=97 && str[i]<=122)
-        {
-            str[i]= str[i]-32;
-        }
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i;
+//     char str[30] ;
+//     cout<<"enter the name : ";
+//     cin>>str;
+//     for ( i = 0; str[i]!='\0'; i++)
+//     {
+//         if (str[i]>=97 && str[i]<=122)
+//         {
+//             str[i]= str[i]-32;
+//         }  
+//     }
+//     cout<<"the letter is capitaal: "<<str; 
+// }
+
+
+//TO FIND THE LENGHT OF STRING-------
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i;
+//     int count = 0;
+//     char str[30] ;
+//     cout<<"enter the name : ";
+//     cin>>str;
+//     for ( i = 0; str[i]!='\0'; i++)
+//     {
+//         count++; 
+//     }
+//     cout<<count<<endl; 
+// }
+
+// TO CONVER THE LETTER IN THE TITAL FORAMTE-------
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     char str [30];
+//     cout<<"enter the string: ";
+//     cin>>str;
+//     for (int i = 0; str[i]!='\0' ; i++)
+//     {
+//         if (i==0)
+//         {
+//             if (str[i]>=97 && str[i]<=122)
+//             {
+//                 str[i]=str[i]-32;
+//             }
+//         }
+//         else if(str)
         
-    }
-    cout<<"the letter is capitaal: "<<str;
-    
-}
+//     }
+// }
+
+//TO Print the pattern-------
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i,j,k;
+//     for ( i = 1; i <=5; i++) // row
+//     {
+//         for ( j = 1; j >=i-5; j--) // space
+//        {
+//          cout<<" ";
+//        }
+//        for ( k = 1; k <=(2*i)-1; k++) // content
+//         {
+//          cout<<k;
+//         } cout<<endl; 
+//     }  
+// }

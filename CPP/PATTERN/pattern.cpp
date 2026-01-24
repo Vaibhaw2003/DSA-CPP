@@ -126,6 +126,49 @@
 //      } 
 //  }
 
+// TO PRINT THE PATTERN REVERSER PYRAMID--------
+
+#include<iostream>
+using namespace std;
+int main(){
+    int i,j,k;
+    for ( i = 1; i <=5; i++) // row
+    {
+        for ( k= 1; k<=i-5; k++) // space
+        {
+            cout<<" ";
+        }
+        for ( j = 1; j >=(2*i)-1; j++)// containt
+        {
+            cout<<"*";
+        }
+        cout<<endl;   
+    }
+}
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main() {
+//     int i, j, k;
+//     int rows = 5;
+
+//     for (i = rows; i >= 1; i--) {
+//         // Print spaces
+//         for (k = 1; k <= rows - i; k++) {
+//             cout << " ";
+//         }
+//         // Print stars
+//         for (j = 1; j <= (2*i - 1); j++) {
+//             cout << "*";
+//         }
+//         cout << endl;
+//     }
+//     return 0;
+// }
+
+
 
 
 
