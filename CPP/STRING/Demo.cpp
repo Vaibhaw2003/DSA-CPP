@@ -180,7 +180,7 @@
 // }
 
 
-//TO FIND THE LENGHT OF STRING-------
+//TO FIND THE LENGHT OF STRING -------
 
 // #include<iostream>
 // using namespace std;
@@ -197,7 +197,7 @@
 //     cout<<count<<endl; 
 // }
 
-// TO CONVER THE LETTER IN THE TITAL FORAMTE-------
+// TO CONVERT THE LETTER IN THE TITAL FORAMTE -------
 
 // #include<iostream>
 // using namespace std;
@@ -219,7 +219,7 @@
 //     }
 // }
 
-//TO Print the pattern-------
+//TO Print the pattern -------
 
 // #include<iostream>
 // using namespace std;
@@ -238,21 +238,67 @@
 //     }  
 // }
 
-// 
+// TO PRINT THE ODD PATTER OF TRANGULAR -------
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i,j;
+//     for ( i = 1; i < 10; i++)
+//     {
+//         if (i%2!=0)
+//         {
+//         for ( j =1; j < i; j++)
+//         {
+//                 cout<<"*";
+//             }
+//             cout<<endl;
+//         }
+//     }   
+// }
+
+// TO PRINT THE TRIANGULAR SERISE OF ODD NUMBER ---------
 #include<iostream>
 using namespace std;
 int main(){
-    int i,j;
-    for ( i = 1; i < 10; i++)
+    int i,j,n;
+    cout<<"enter the number of row : ";
+    cin>>n;
+    for ( i =1 ; i <=n; i++)
     {
-        if (i%2!=0)
+        if (i%2==0)
         {
-        for ( j =1; j < i; j++)
-        {
-                cout<<"*";
+            for ( j = 1; j <=i; j++)
+            {
+                if (i>j)
+                {
+                    cout<<"*";
+                }   
             }
-            cout<<endl;
-        }
-    }
-        
+        }cout<<endl;   
+    } 
+}
+
+
+
+
+#include<iostream>
+using namespace std;
+int main(){
+    int i,j,n;
+    cout<<"enter the number of row : ";
+    cin>>n;
+    for ( i =1 ; i <=n; i++)
+    {
+        if (i%2==0)
+        {
+            for ( j = 1; j <=i; j++)
+            {
+                if (i>j)
+                {
+                    cout<<"7";
+                }   
+            }
+        }cout<<endl;   
+    } 
 }
