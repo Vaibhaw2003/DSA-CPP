@@ -240,25 +240,65 @@ int main(){
 
 // TO ARRANGE THE GIVEN ARRAY IN SELECTION SORT ---------
 
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int arr[6]={10,4,1,3,2,7};
+//     for (int i = 0; i < 5; i++)
+//     {
+//         int index =i;
+//         for(int j = i+1; j<6; j++)
+//         {
+//             if(arr[j]<arr[index])
+//             {
+//                 index=j;
+//             }
+//         }
+//         swap(arr[i],arr[index]);
+//     }   
+//     for (int i = 0; i<6; i++)
+//         {
+//             cout<<arr[i]<<" ";
+//         }
+// }
+
+
+
 #include<iostream>
 using namespace std;
 int main(){
-    int arr[6]={10,4,1,3,2,7};
-    for (int i = 0; i < 5; i++)
+   int arr[1000];
+   int n;
+   cout<<"enter the size of element :";
+   cin>>n;
+   //TO TAKE INPUT AS A ELEMENT
+   cout<<"enter the elment of the arrays :";
+   for (int i = 1; i <= n; i++)
+   {
+     cin>>arr[i];
+   }
+   cout<<"the eleament is : ";
+   for (int i = 1; i <= n; i++)
+   {
+     cout<<arr[i]<<" ";
+   }
+   //TO SORT THE ARRAY
+   for (int i = 1; i <=n; i++)
+   {
+    int index =i;
+    for (int j = i+1; j <= n; j++)
     {
-        int index =i;
-        for(int j = i+1; j<6; j++)
+        if (arr[j]<arr[index])
         {
-            if(arr[j]<arr[index])
-            {
-                index=j;
-            }
+            index =j;
         }
-        swap(arr[i],arr[index]);
-    }   
-    for (int i = 0; i<6; i++)
-        {
-            cout<<arr[i]<<" ";
-        }
+    }
+    swap(arr[i],arr[index]);
+   }
+   cout<<"the sorted array is: ";
+   for (int i = 1; i <=n; i++)
+   {
+     cout<<arr[i]<<" ";
+   }
 }
 
