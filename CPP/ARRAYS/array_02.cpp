@@ -304,18 +304,16 @@ int main(){
 
 // to print trangular * patter....
 
-#include<iostream>
-using namespace std;
-int main(){
-    int i,j,k;
-    for ( i = 0; i <6; i++)
-    {
-        for ( j = 0; j <i; j++)
-        {
-            cout<<"*";
-        }
-        cout<<endl;
-        
-    }
-    
-}
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i,j,k;
+//     for ( i = 0; i <6; i++)
+//     {
+//         for ( j = 0; j <i; j++)
+//         {
+//             cout<<"*";
+//         }
+//         cout<<endl;   
+//     }
+// }

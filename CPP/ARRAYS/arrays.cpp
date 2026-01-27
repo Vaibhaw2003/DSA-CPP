@@ -131,28 +131,52 @@
 
 // TO FIND ELEMENT IS PRESENT IN THE ARRAY OR NOT---------
 
-#include <iostream>
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     int arr[5] ={2,4,6,8,3};
+//     int n;
+//     cout<<"enter the element to be searched : "<<endl;
+//     cin>>n;
+//     bool found = false;
+//     for ( int i = 0; i < 5; i++)
+//     {
+//         if (arr[i]==n)
+//         {
+//             found = true;
+//             break;
+//         }
+//     }
+//     if (found)
+//     {
+//         cout<<"element is present in the array "<<endl;
+//     }
+//     else
+//     {
+//         cout<<"element is not present in the array "<<endl;
+//     }
+// }
+
+
+// TO FIND ELEMENT IN THE ARRAY -------
+
+#include<iostream>
 using namespace std;
 int main(){
-    int arr[5] ={2,4,6,8,3};
-    int n;
-    cout<<"enter the element to be searched : "<<endl;
+    int n,i;
+    int arr[5]={23,24,55,24,22};
+    cout<<"enter the element which you find :";
     cin>>n;
-    bool found = false;
-    for ( int i = 0; i < 5; i++)
+    bool fnd = false;
+    for (i = 0; i < 5; i++)
     {
         if (arr[i]==n)
         {
-            found = true;
+            fnd = true;
             break;
-        }
+        } 
     }
-    if (found)
-    {
-        cout<<"element is present in the array "<<endl;
-    }
-    else
-    {
-        cout<<"element is not present in the array "<<endl;
-    }
+    cout<<"element is found : "<<arr[i]<<endl;
+    cout<<"index of element is : "<<i<<endl;
+    
 }

@@ -263,42 +263,42 @@ int main(){
 // }
 
 
-
-#include<iostream>
-using namespace std;
-int main(){
-   int arr[1000];
-   int n;
-   cout<<"enter the size of element :";
-   cin>>n;
-   //TO TAKE INPUT AS A ELEMENT
-   cout<<"enter the elment of the arrays :";
-   for (int i = 1; i <= n; i++)
-   {
-     cin>>arr[i];
-   }
-   cout<<"the eleament is : ";
-   for (int i = 1; i <= n; i++)
-   {
-     cout<<arr[i]<<" ";
-   }
-   //TO SORT THE ARRAY
-   for (int i = 1; i <=n; i++)
-   {
-    int index =i;
-    for (int j = i+1; j <= n; j++)
-    {
-        if (arr[j]<arr[index])
-        {
-            index =j;
-        }
-    }
-    swap(arr[i],arr[index]);
-   }
-   cout<<"the sorted array is: ";
-   for (int i = 1; i <=n; i++)
-   {
-     cout<<arr[i]<<" ";
-   }
-}
+// TO ARRANAGE THE ARRAY IN SORTED FORM ---------
+// #include<iostream>
+// using namespace std;
+// int main(){
+//    int arr[1000];
+//    int n;
+//    cout<<"enter the size of element :";
+//    cin>>n;
+//    //TO TAKE INPUT AS A ELEMENT
+//    cout<<"enter the elment of the arrays :";
+//    for (int i = 1; i <= n; i++)
+//    {
+//      cin>>arr[i];
+//    }
+//    cout<<"the eleament is : ";
+//    for (int i = 1; i <= n; i++)
+//    {
+//      cout<<arr[i]<<" ";
+//    }
+//    //TO SORT THE ARRAY
+//    for (int i = 1; i <=n; i++)
+//    {
+//     int index =i;
+//     for (int j = i+1; j <= n; j++)
+//     {
+//         if (arr[j]<arr[index])
+//         {
+//             index =j;
+//         }
+//     }
+//     swap(arr[i],arr[index]);
+//    }
+//    cout<<"the sorted array is: ";
+//    for (int i = 1; i <=n; i++)
+//    {
+//      cout<<arr[i]<<" ";
+//    }
+// }
 
