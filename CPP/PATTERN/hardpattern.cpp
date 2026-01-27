@@ -1,10 +1,8 @@
-#include<iostream>
-using namespace std;
+// 00---TO PRINT "ABCD" IN PATTERN CODE BELOWE----
 
-int main(){
-
-    // 00---TO PRINT "ABCD" IN PATTERN CODE BELOWE----
-
+//#include<iostream>
+//using namespace std;
+//int main(){
 // int i, j; // i= row ,j= col, k= *
 // for ( i = 0; i < 6; i++)  //for row ke liye
 // {
@@ -19,7 +17,7 @@ int main(){
 //     cout<<endl; 
 // }
 
-    //  01--  TO PRINT 1
+//  01--  TO PRINT 1
             //    12
             //   123
             //  1234  THISE Ptter code below--------
@@ -39,8 +37,7 @@ int main(){
 // }
 
 
-
-    // 02--- TO PRINT      1
+// 02--- TO PRINT      1
             //     22
             //    333
             //   4444  THISE PATTER CODE BELOW----
@@ -59,8 +56,7 @@ int main(){
 // }
 
 
-
-    // 03----  TO PRINT PYRAMID OF * ---------
+// 03----  TO PRINT PYRAMID OF * ---------
 
 // int i, j,k; // i= row ,j= col, k= *
 // for ( i = 0; i < 11; i++)  //for row ke liye
@@ -73,13 +69,11 @@ int main(){
 //     {
 //        cout<<"*";
 //     }
-//     cout<<endl;
-    
+//     cout<<endl; 
 // }
 
 
-
-     // 04----- TO PRINT * BY 5 -------
+// 04----- TO PRINT * BY 5 -------
     // int i, j;
 
     // for ( i = 0; i < 6; i++)
@@ -89,8 +83,151 @@ int main(){
     //        cout<<" *";
     //    }
     //    cout<<endl;
-       
-    // }
-    
+// }
+//}
 
-}
+
+//TO PRINT TRANGULAR PYRAMID --------
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i,j,k,n;
+//     cout<<"enter the no.of row : ";
+//     cin>>n;
+//     for ( i = 1; i <=n; i++) //row
+//     {
+//         for ( j = 1; j <=n-i; j++)//space
+//         {
+//               cout<<" ";
+//         }
+//         for ( k = 1; k <=(2*i)-1; k++) // containts
+//         {
+//             cout<<"*";   
+//         }
+//         cout<<endl;
+//     }
+// }
+
+//TO PRINT THE HOLO TRINGULAR PYRAMID -------
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i,j,k,n;
+//     cout<<"enter the no.of row : ";
+//     cin>>n;
+//     for ( i = 1; i <=n; i++) //rows
+//     {
+//         for ( j = 1; j <=n-i; j++)//space
+//         {
+//               cout<<" ";
+//         }
+//         for ( k = (2*i)-1; k >=1; k--) // contents
+//         {
+//            if (k==1||k==(2*i)-1 || i==n )
+//              cout<<"*";
+//              else
+//              cout<<" ";
+//         }
+//         cout<<endl;
+//     }
+// }
+
+//TO PRINT THE REVERSE HOLO TRINGULAR PYRAMID -------
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i,j,k,n;
+//     cout<<"enter the no.of row : ";
+//     cin>>n;
+//     for ( i = n; i >=1; i--) //rows
+//     {
+//         for ( j = 1; j <=n-i; j++)//space
+//         {
+//               cout<<" ";
+//         }
+//         for ( k = (2*i)-1; k >=1; k--) // contents
+//         {
+//            if (k==1||k==(2*i)-1 || i==n )
+//              cout<<"*";
+//              else
+//              cout<<" ";
+//         }
+//         cout<<endl;
+//     }
+// }
+
+
+//TO PRINT THE KITE LIKE PATTERN ------
+
+#include<iostream>
+using namespace std;
+int main(){
+    int i,j,k,n;
+    cout<<"enter the no.of row : ";
+    cin>>n;
+    for ( i = 1; i <=n; i++) //row
+    {
+        for ( j = 1; j <=n-i; j++)//space
+        {
+              cout<<" ";
+        }
+        for ( k = 1; k <=(2*i)-1; k++) // containts
+        {
+            if (k==1||k==(2*i)-1 || i==n )
+              cout<<"*";
+              else
+             cout<<" "; 
+        }
+         cout<<endl;
+    }
+    // for lower  
+
+        for (i= n-1;i>= 1; i--)
+        {
+            for (j = 1; j<=n-i ; j++)
+            {
+                cout<<" ";
+            }
+            for (k = 1; k <=(2*i)-1; k++)
+            {
+                if (k==1||k==(2*i)-1 || i==n )
+              cout<<"*";
+              else
+              cout<<" ";
+            }
+            cout<<endl;
+        }
+    }
+
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main() {
+//     int n;
+//     cout << "Enter number of rows: ";
+//     cin >> n;
+//     for (int i = 1; i <= n; i++) {
+//         for (int j = 1; j <= n - i; j++) {
+//             cout << " ";
+//         }
+//         for (int k = 1; k <= (2 * i - 1); k++) {
+//             cout << "*";
+//         }
+//         cout << endl;
+//     }
+
+//     for (int i = n - 1; i >= 1; i--) {
+//         for (int j = 1; j <= n - i; j++) {
+//             cout << " ";
+//         }
+//         for (int k = 1; k <= (2 * i )-1; k++) {
+//             cout <<"*";
+//         }
+//         cout << endl;
+//     }
+// }
