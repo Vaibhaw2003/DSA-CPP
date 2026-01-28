@@ -258,47 +258,83 @@
 // }
 
 // TO PRINT THE TRIANGULAR SERISE OF ODD NUMBER ---------
-#include<iostream>
-using namespace std;
-int main(){
-    int i,j,n;
-    cout<<"enter the number of row : ";
-    cin>>n;
-    for ( i =1 ; i <=n; i++)
-    {
-        if (i%2==0)
-        {
-            for ( j = 1; j <=i; j++)
-            {
-                if (i>j)
-                {
-                    cout<<"*";
-                }   
-            }
-        }cout<<endl;   
-    } 
-}
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i,j,n;
+//     cout<<"enter the number of row : ";
+//     cin>>n;
+//     for ( i =1 ; i <=n; i++)
+//     {
+//         if (i%2==0)
+//         {
+//             for ( j = 1; j <=i; j++)
+//             {
+//                 if (i>j)
+//                 {
+//                     cout<<"*";
+//                 }   
+//             }
+//         }cout<<endl;   
+//     } 
+// }
+
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i,j,n;
+//     cout<<"enter the number of row : ";
+//     cin>>n;
+//     for ( i =1 ; i <=n; i++)
+//     {
+//         if (i%2==0)
+//         {
+//             for ( j = 1; j <=i; j++)
+//             {
+//                 if (i>j)
+//                 {
+//                     cout<<"7";
+//                 }   
+//             }
+//         }cout<<endl;   
+//     } 
+// }
 
 
 
+#include <stdio.h>
 
-#include<iostream>
-using namespace std;
-int main(){
-    int i,j,n;
-    cout<<"enter the number of row : ";
-    cin>>n;
-    for ( i =1 ; i <=n; i++)
-    {
-        if (i%2==0)
-        {
-            for ( j = 1; j <=i; j++)
-            {
-                if (i>j)
-                {
-                    cout<<"7";
-                }   
-            }
-        }cout<<endl;   
-    } 
+int main() {
+    char str[100];
+    int vowels = 0, spaces = 0, consonants = 0, i;
+
+    printf("Enter a string: ");
+    fgets(str, 100, stdin);
+
+    for (i = 0; str[i] != '\0'; i++) {
+
+        // check space
+        if (str[i] == ' ') {
+            spaces++;
+        }
+        // check vowel
+        else if (str[i]=='a' || str[i]=='e' || str[i]=='i' || 
+                 str[i]=='o' || str[i]=='u' ||
+                 str[i]=='A' || str[i]=='E' || str[i]=='I' || 
+                 str[i]=='O' || str[i]=='U') {
+            vowels++;
+        }
+        // check consonant
+        else if ((str[i] >= 'a' && str[i] <= 'z') || 
+                 (str[i] >= 'A' && str[i] <= 'Z')) {
+            consonants++;
+        }
+    }
+
+    printf("Vowels = %d\n", vowels);
+    printf("Spaces = %d\n", spaces);
+    printf("Consonants = %d\n", consonants);
+
+    return 0;
 }

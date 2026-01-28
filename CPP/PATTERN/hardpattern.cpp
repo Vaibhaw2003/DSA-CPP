@@ -162,45 +162,45 @@
 
 //TO PRINT THE KITE LIKE PATTERN ------
 
-#include<iostream>
-using namespace std;
-int main(){
-    int i,j,k,n;
-    cout<<"enter the no.of row : ";
-    cin>>n;
-    for ( i = 1; i <=n; i++) //row
-    {
-        for ( j = 1; j <=n-i; j++)//space
-        {
-              cout<<" ";
-        }
-        for ( k = 1; k <=(2*i)-1; k++) // containts
-        {
-            if (k==1||k==(2*i)-1 || i==n )
-              cout<<"*";
-              else
-             cout<<" "; 
-        }
-         cout<<endl;
-    }
-    // for lower  
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i,j,k,n;
+//     cout<<"enter the no.of row : ";
+//     cin>>n;
+//     for ( i = 1; i <=n; i++) //row
+//     {
+//         for ( j = 1; j <=n-i; j++)//space
+//         {
+//               cout<<" ";
+//         }
+//         for ( k = 1; k <=(2*i)-1; k++) // containts
+//         {
+//             if (k==1||k==(2*i)-1 || i==n )
+//               cout<<"*";
+//               else
+//              cout<<" "; 
+//         }
+//          cout<<endl;
+//     }
+//     // for lower  
 
-        for (i= n-1;i>= 1; i--)
-        {
-            for (j = 1; j<=n-i ; j++)
-            {
-                cout<<" ";
-            }
-            for (k = 1; k <=(2*i)-1; k++)
-            {
-                if (k==1||k==(2*i)-1 || i==n )
-              cout<<"*";
-              else
-              cout<<" ";
-            }
-            cout<<endl;
-        }
-    }
+//         for (i= n-1;i>= 1; i--)
+//         {
+//             for (j = 1; j<=n-i ; j++)
+//             {
+//                 cout<<" ";
+//             }
+//             for (k = 1; k <=(2*i)-1; k++)
+//             {
+//                 if (k==1||k==(2*i)-1 || i==n )
+//               cout<<"*";
+//               else
+//               cout<<" ";
+//             }
+//             cout<<endl;
+//         }
+//     }
 
 
 
@@ -231,3 +231,46 @@ int main(){
 //         cout << endl;
 //     }
 // }
+
+
+//
+
+#include<iostream>
+using namespace std;
+int main(){
+    int i,j,k,n;
+    cout<<"enter the no.of row : ";
+    cin>>n;
+    for ( i = 1; i <=n; i++) //row
+    {
+        for ( j = 1; j <=n-i; j++)//space
+        {
+              cout<<" ";
+        }
+        for ( k = 1; k <=(2*i)-1; k++) // containts
+        {
+            if (k==1||k==(2*i)-1)
+              cout<<"*";
+              else
+             cout<<" "; 
+        }
+         cout<<endl;
+    }
+    // for lower  
+
+        for (i= n-1;i>= 1; i--)
+        {
+            for (j = 1; j<=n-i ; j++)
+            {
+                cout<<" ";
+            }
+            for (k = 1; k <=(2*i)-1; k++)
+            {
+                if (k==1||k==(2*i)-1)
+              cout<<"*";
+              else
+              cout<<" ";
+            }
+            cout<<endl;
+        }
+    }
