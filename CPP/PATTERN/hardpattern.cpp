@@ -235,13 +235,122 @@
 
 //
 
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i,j,k,n;
+//     cout<<"enter the no.of row : ";
+//     cin>>n;
+//     for ( i = 1; i <=n; i++) //row
+//     {
+//         for ( j = 1; j <=n-i; j++)//space
+//         {
+//               cout<<" ";
+//         }
+//         for ( k = 1; k <=(2*i)-1; k++) // containts
+//         {
+//             if (k==1||k==(2*i)-1)
+//               cout<<"*";
+//               else
+//              cout<<" "; 
+//         }
+//          cout<<endl;
+//     }
+//     // for lower  
+
+//         for (i= n-1;i>= 1; i--)
+//         {
+//             for (j = 1; j<=n-i ; j++)
+//             {
+//                 cout<<" ";
+//             }
+//             for (k = 1; k <=(2*i)-1; k++)
+//             {
+//                 if (k==1||k==(2*i)-1)
+//               cout<<"*";
+//               else
+//               cout<<" ";
+//             }
+//             cout<<endl;
+//         }
+//     }
+
+// TO PRINT DUBBLEP YRAMID PATTERN -----
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i,j,k,n;
+//     cout<<"enter the no.of row : ";
+//     cin>>n;
+//     for ( i = 1; i <=n; i++) //row
+//     {
+//         for ( j = 1; j <=n-i; j++)//space
+//         {
+//               cout<<" ";
+//         }
+//         for ( k = 1; k <=(2*i)-1; k++) // containts
+//         {
+//             cout<<"*"; 
+//         }
+//          cout<<endl;
+//     }
+//     // for lower  
+
+//         for (i= n-1;i>= 1; i--)
+//         {
+//             for (j = 1; j<=n-i ; j++)
+//             {
+//                 cout<<" ";
+//             }
+//             for (k = 1; k <=(2*i)-1; k++)
+//             {
+//                 cout<<"*";
+//             }
+//             cout<<endl;
+//         }
+//     }
+
+
+// TO PRINT SOLID DUBBLEP YRAMID SIDE BY SIDE PATTERN -----
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i,j,k,n;
+//     cout<<"enter the no.of row : ";
+//     cin>>n;
+//     for ( i = 1; i <=n; i++) //row
+//     {
+//         for ( j = 1; j <=n-i; j++)//space
+//         {
+//               cout<<" ";
+//         }
+//         for ( k = 1; k <=(2*i)-1; k++) // containts
+//         {
+//             cout<<"*"; 
+//         }
+//         for ( j = 1; j <=2*(n-i); j++)//space between two pyramid
+//         {
+//               cout<<" ";
+//         }
+//          for ( k = 1; k <=(2*i)-1; k++) // containts
+//         {
+//             cout<<"*"; 
+//         }
+//          cout<<endl;
+//     }
+// }
+
+//TO PRINT PYRAMID OF NUMBERS AND REVERSE OF PYRAMID -----
+
 #include<iostream>
 using namespace std;
 int main(){
     int i,j,k,n;
     cout<<"enter the no.of row : ";
     cin>>n;
-    for ( i = 1; i <=n; i++) //row
+    for ( i = n-1; i >=1; i--) //row
     {
         for ( j = 1; j <=n-i; j++)//space
         {
@@ -249,16 +358,13 @@ int main(){
         }
         for ( k = 1; k <=(2*i)-1; k++) // containts
         {
-            if (k==1||k==(2*i)-1)
-              cout<<"*";
-              else
-             cout<<" "; 
+            cout<<i; 
         }
          cout<<endl;
     }
     // for lower  
 
-        for (i= n-1;i>= 1; i--)
+        for (i= 1;i<= n-1; i++)
         {
             for (j = 1; j<=n-i ; j++)
             {
@@ -266,10 +372,7 @@ int main(){
             }
             for (k = 1; k <=(2*i)-1; k++)
             {
-                if (k==1||k==(2*i)-1)
-              cout<<"*";
-              else
-              cout<<" ";
+                cout<<i;
             }
             cout<<endl;
         }
