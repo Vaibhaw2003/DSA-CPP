@@ -358,7 +358,7 @@ int main(){
         }
         for ( k = 1; k <=(2*i)-1; k++) // containts
         {
-            cout<<i; 
+            cout<<"*"; 
         }
          cout<<endl;
     }
@@ -372,7 +372,7 @@ int main(){
             }
             for (k = 1; k <=(2*i)-1; k++)
             {
-                cout<<i;
+                cout<<"*";
             }
             cout<<endl;
         }
