@@ -43,7 +43,8 @@ int main(){
         cin>>arr[i];
     }
 
-    // BUBEL SORT ALGORITHM -----
+    // BUBLE SORT ALGORITHM -----
+    
     for ( j = 0; j < n-1; j++)
     {
         if (arr[j]>arr[j+1])

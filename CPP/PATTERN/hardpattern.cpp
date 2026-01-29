@@ -344,36 +344,252 @@
 
 //TO PRINT PYRAMID OF NUMBERS AND REVERSE OF PYRAMID -----
 
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i,j,k,n;
+//     cout<<"enter the no.of row : ";
+//     cin>>n;
+//     for ( i = n-1; i >=1; i--) //row
+//     {
+//         for ( j = 1; j <=n-i; j++)//space
+//         {
+//               cout<<" ";
+//         }
+//         for ( k = 1; k <=(2*i)-1; k++) // containts
+//         {
+//             cout<<"*"; 
+//         }
+//          cout<<endl;
+//     }
+//     // for lower  
+
+//         for (i= 1;i<= n-1; i++)
+//         {
+//             for (j = 1; j<=n-i ; j++)
+//             {
+//                 cout<<" ";
+//             }
+//             for (k = 1; k <=(2*i)-1; k++)
+//             {
+//                 cout<<"*";
+//             }
+//             cout<<endl;
+//         }
+//     }
+
+
+//TO PRINT HOLLOW DIAMOND PATTERN --------
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i,j,k,n;
+//     cout<<"enter the no.of row : ";
+//     cin>>n;
+//     for ( i = 1; i <=n; i++) //row
+//     {
+//         for ( j = 1; j <=n-i; j++)//space
+//         {
+//               cout<<" ";
+//         }
+//         for ( k = 1; k <=(2*i)-1; k++) // containts
+//         {
+//             if (k==1||k==(2*i)-1)
+//               cout<<"*";
+//               else
+//              cout<<" "; 
+//         }
+//          cout<<endl;
+//     }
+//     // for lower  
+
+//         for (i= n-1;i>= 1; i--)
+//         {
+//             for (j = 1; j<=n-i ; j++)
+//             {
+//                 cout<<" ";
+//             }
+//             for (k = 1; k <=(2*i)-1; k++)
+//             {
+//                 if (k==1||k==(2*i)-1)
+//               cout<<"*";
+//               else
+//               cout<<" ";
+//             }
+//             cout<<endl;
+//         }
+//     }
+
+//TO PRINT HOLLOW DIAMOND PATTERN WITHOUT SPACE IN BETWEEN --------
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i,j,k,n;
+//     cout<<"enter the no.of row : ";
+//     cin>>n;
+//     for ( i = 1; i <=n; i++) //row
+//     {
+//         for ( j = 1; j <=i; j++)//space
+//         {
+//               cout<<" ";
+//         }
+//         for ( k = 1; k <=(2*i)-1; k++) // containts
+//         {
+//             if (k==1||k==(2*i)-1)
+//               cout<<"*";
+//               else
+//              cout<<" "; 
+//         }
+//          cout<<endl;
+//     }
+//     // for lower  
+
+//         for (i= n-1;i>= 1; i--)
+//         {
+//             for (j = 1; j<=i ; j++)
+//             {
+//                 cout<<" ";
+//             }
+//             for (k = 1; k <=(2*i)-1; k++)
+//             {
+//                 if (k==1||k==(2*i)-1)
+//               cout<<"*";
+//               else
+//               cout<<" ";
+//             }
+//             cout<<endl;
+//         }
+//     }
+
+//TO PRINT HOLLOW SQUARE BAUNDARY WITH INSIDE PRAMIDE --------
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i,j,k,n;
+//     cout<<"enter the no.of row : ";
+//     cin>>n;
+//     for ( i = 1; i <=n; i++) //row
+//     {
+//         for ( j = 1; j <=n; j++)//space
+//         {
+//               if (i==1 || j==1 || i==n)
+//               cout<<"*";
+//               else
+//               cout<<" ";
+//         }
+//         for ( k = 1; k <=(2*i)-1; k++) // containts
+//         {
+//             if (k==1||k==(2*i)-1)
+//               cout<<"*";
+//               else
+//              cout<<" "; 
+//         }
+//          cout<<endl;
+//     }
+//     // for lower  
+
+//         for (i= n-1;i>= 1; i--)
+//         {
+//             for (j = 1; j<=n ; j++)
+//             {
+//                 if (i==1 || j==1 || i==n)
+//               cout<<"*";
+//               else
+//               cout<<" ";
+//             }
+//             for (k = 1; k <=(2*i)-1; k++)
+//             {
+//                 if (k==1||k==(2*i)-1)
+//               cout<<"*";
+//               else
+//               cout<<" ";
+//             }
+//             cout<<endl;
+//         }
+//     }
+
+//TO PRINT HOLLOW SQUARE BAUNDARY WITH INSIDE INVERTED PRAMIDE --------
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i,j,k,n;
+//     cout<<"enter the no.of row : ";
+//     cin>>n;
+//     for ( i = n; i >=1; i--) //row
+//     {
+//         for ( j = 1; j <=n; j++)//space
+//         {
+//               if (i==1 || j==1 || i==n)
+//               cout<<"*";
+//               else
+//               cout<<" ";
+//         }
+//         for ( k = 1; k <=(2*i)-1; k++) // containts
+//         {
+//             if (k==1||k==(2*i)-1)
+//               cout<<"*";
+//               else
+//              cout<<" "; 
+//         }
+//          cout<<endl;
+//     }
+//     // for lower  
+
+//         for (i= 2;i<= n; i++)
+//         {
+//             for (j = 1; j<=n ; j++)
+//             {
+//                 if (i==1 || j==1 || i==n)
+//               cout<<"*";
+//               else
+//               cout<<" ";
+//             }
+//             for (k = 1; k <=(2*i)-1; k++)
+//             {
+//                 if (k==1||k==(2*i)-1)
+//               cout<<"*";
+//               else
+//               cout<<" ";
+//             }
+//             cout<<endl;
+//         }
+//     }
+
+//
 #include<iostream>
-using namespace std;
+using namespace std;    
 int main(){
     int i,j,k,n;
     cout<<"enter the no.of row : ";
     cin>>n;
-    for ( i = n-1; i >=1; i--) //row
+    for ( i = 0; i < n; i++)
     {
-        for ( j = 1; j <=n-i; j++)//space
+        if (i==0||i==n-1)
         {
-              cout<<" ";
-        }
-        for ( k = 1; k <=(2*i)-1; k++) // containts
-        {
-            cout<<"*"; 
-        }
-         cout<<endl;
-    }
-    // for lower  
-
-        for (i= 1;i<= n-1; i++)
-        {
-            for (j = 1; j<=n-i ; j++)
+            for ( j = 0; j < n; j++)
             {
-                cout<<" ";
+                cout<<"* ";
             }
-            for (k = 1; k <=(2*i)-1; k++)
+            cout<<endl;
+        }
+        else{
+            for ( j = 0; j < n; j++)
             {
-                cout<<"*";
+                if (j==0||j==n-1)
+                {
+                    cout<<"* ";
+                }
+                else
+                {
+                    cout<<"  ";
+                }
             }
             cout<<endl;
         }
     }
+}
+
