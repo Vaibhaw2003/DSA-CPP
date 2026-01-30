@@ -672,4 +672,48 @@
 //     }
 // }
 
-//
+//TO PRINT THE SQUARE WITH DIAGONAL STAR PATTERN ----------
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i,j,n;
+//     cout<<"enter the no.of row : ";
+//     cin>>n;
+//     for ( i = 1; i <=n; i++) //row
+//     {
+//         for ( j = 1; j <=n; j++)//space
+//         {
+//               if (j==i || j==(n-i)+1 || i==1 || i==n || j==1 || j==n)
+//               cout<<"* ";
+//               else
+//               cout<<"  ";
+//         }
+//          cout<<endl;
+//     }
+// }
+
+//TO PRINT THE SQUARE WITH  IN SIDE TRANGULAR PYRAMID STAR PATTERN ----------
+#include<iostream>
+using namespace std;
+int main(){
+    int i,j,k,n;
+    cout<<"enter the no.of row : ";
+    cin>>n;
+    for ( i = 1; i <=n; i++) //row
+    {
+        for ( j = 1; j <=n; j++)//space
+        {
+                if (i==1 || j==1 || i==n || j==n )
+                cout<<"* ";
+                else
+                cout<<"  ";
+                for ( k = 2; k <=n-1; k++)
+                {
+                        cout<<"* ";
+                        break;
+                }
+        }
+         cout<<endl;
+    }
+}
