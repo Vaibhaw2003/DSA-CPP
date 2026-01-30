@@ -559,37 +559,117 @@
 //         }
 //     }
 
-//
-#include<iostream>
-using namespace std;    
-int main(){
-    int i,j,k,n;
-    cout<<"enter the no.of row : ";
-    cin>>n;
-    for ( i = 0; i < n; i++)
-    {
-        if (i==0||i==n-1)
-        {
-            for ( j = 0; j < n; j++)
-            {
-                cout<<"* ";
-            }
-            cout<<endl;
-        }
-        else{
-            for ( j = 0; j < n; j++)
-            {
-                if (j==0||j==n-1)
-                {
-                    cout<<"* ";
-                }
-                else
-                {
-                    cout<<"  ";
-                }
-            }
-            cout<<endl;
-        }
-    }
-}
+//TO PRINT THE HOLLOW SQUARE PATTERN -----
 
+// #include<iostream>
+// using namespace std;    
+// int main(){
+//     int i,j,k,n;
+//     cout<<"enter the no.of row : ";
+//     cin>>n;
+//     for ( i = 0; i < n; i++)
+//     {
+//         if (i==0||i==n-1)
+//         {
+//             for ( j = 0; j < n; j++)
+//             {
+//                 cout<<"* ";
+//             }
+//             cout<<endl;
+//         }
+//         else{
+//             for ( j = 0; j < n; j++)
+//             {
+//                 if (j==0||j==n-1)
+//                 {
+//                     cout<<"* ";
+//                 }
+//                 else
+//                 {
+//                     cout<<"  ";
+//                 }
+//             }
+//             cout<<endl;
+//         }
+//     }
+// }
+
+//TO PRINT THE ADD SYMBOL PATTERN ----------
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i,j,k,n;
+//     cout<<"enter the no.of row : ";
+//     cin>>n;
+//     for ( i = 1; i <=n; i++) //row
+//     {
+//         for ( j = 1; j <=n; j++)//space
+//         {
+//               if (j==(n/2)+1 || i==(n/2)+1)
+//               cout<<"* ";
+//               else
+//               cout<<"  ";
+//         }
+//          cout<<endl;
+//     }
+// }
+
+
+//TO PRINT THE WAVE STAR PATTERN ----------
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i,j,k,n;
+//     cout<<"enter the no.of row : ";
+//     cin>>n;
+//     cout<<"enter the no.of coloumn : ";
+//     cin>>k;
+//     for ( i = 1; i <=n; i++) //row
+//     {
+//        if (i%2!=0){
+//         for ( j = 1; j <=k; j++)//space
+//         {
+//               if (j%4==1)
+//               cout<<"* ";
+//               else
+//               cout<<"  ";
+//         }
+//        }
+//          else
+//        {
+//         for ( j = 1; j <=k; j++)//space
+//         {
+//                 if (j%2!=0)
+//                 cout<<"* ";
+//                 else
+//                 cout<<"  ";
+//         }
+         
+//        }
+//        cout<<endl;
+//     }
+// }
+
+//TO PRINT THE DIAGONAL STAR PATTERN ----------
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i,j,n;
+//     cout<<"enter the no.of row : ";
+//     cin>>n;
+//     for ( i = 1; i <=n; i++) //row
+//     {
+//         for ( j = 1; j <=n; j++)//space
+//         {
+//               if (j==i || j==(n-i)+1)
+//               cout<<"* ";
+//               else
+//               cout<<"  ";
+//         }
+//          cout<<endl;
+//     }
+// }
+
+//
