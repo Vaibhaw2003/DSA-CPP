@@ -694,26 +694,125 @@
 // }
 
 //TO PRINT THE SQUARE WITH  IN SIDE TRANGULAR PYRAMID STAR PATTERN ----------
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i,j,k,n;
+//     cout<<"enter the no.of row : ";
+//     cin>>n;
+//     for ( i = 1; i <=n; i++) //row
+//     {
+//         for ( j = 1; j <=n; j++)//space
+//         {
+//                 if (i==1 || j==1 || i==n || j==n )
+//                 cout<<"* ";
+//                 else
+//                 cout<<"  ";
+//                 for ( k = 2; k <=n-1; k++)
+//                 {
+//                         cout<<"* ";
+//                         break;
+//                 }
+//         }
+//          cout<<endl;
+//     }
+// }
+
+//TO PRINT THE SQUARE WITH  IN SIDE DIAGONAL STAR PATTERN ----------
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i,j,n;
+//     cout<<"enter the no.of row : ";
+//     cin>>n;
+//     for ( i = 1; i <=n; i++) //row
+//     {
+//         for ( j = 1; j <=n; j++)//space
+//         {
+//                 if (i==1 || j==1 || i==n || j==n || i==j || j==(n-i+1) )
+//                 cout<<"* ";
+//                 else
+//                 cout<<" .";
+//         }
+//          cout<<endl;
+//     }
+// }
+
+
+
+//TO PRINT THE SQUARE WITH  IN SIDE DIAGONAL STAR WITH . PATTERN ----------
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i,j,n;
+//     cout<<"enter the no.of row : ";
+//     cin>>n;
+//     for ( i = 1; i <=n; i++) //row
+//     {
+//         for ( j = 1; j <=n; j++)//space
+//         {
+//                 if (i==1 || j==1 || i==n || j==n || i==j || j==(n-i+1) )
+//                 cout<<"* ";
+//                 else
+//                 cout<<" .";
+//         }
+//          cout<<endl;
+//     }
+// }
+
+
+//TO PRINT THE HOLLO PYRAMID WITH NUMBER IN HOLLO PART PATTERN ----------
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i,j,k,n;
+//     cout<<"enter the no.of row : ";
+//     cin>>n;
+//     for ( i = 1; i <=n; i++) //row
+//     {
+//         for ( j = 1; j <=n-i; j++)//space
+//         {
+//               cout<<" ";
+//         }
+//         for ( k = 1; k <=(2*i)-1; k++) // containts
+//         {
+//             if (k==1||k==(2*i)-1)
+//               cout<<"*";
+//               else
+//              cout<<i-1; 
+//         }
+//          cout<<endl;
+//     }
+// }
+
+//TO CHEK THE PRIME NUMBER OR NOT ----------
+
 #include<iostream>
 using namespace std;
 int main(){
-    int i,j,k,n;
-    cout<<"enter the no.of row : ";
+    int n,i,flag=0;
+    cout<<"enter the no : ";
     cin>>n;
-    for ( i = 1; i <=n; i++) //row
+    for ( i = 2; i <=n-1; i++)
     {
-        for ( j = 1; j <=n; j++)//space
+        if (n%i==0)
         {
-                if (i==1 || j==1 || i==n || j==n )
-                cout<<"* ";
-                else
-                cout<<"  ";
-                for ( k = 2; k <=n-1; k++)
-                {
-                        cout<<"* ";
-                        break;
-                }
+            flag=1;
+            break;
         }
-         cout<<endl;
     }
+    if (flag==0)
+    {
+        cout<<"prime no ";
+    }
+    else
+    {
+        cout<<"not a prime no ";
+    }
+
+    
+    
 }
