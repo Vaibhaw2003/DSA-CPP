@@ -317,3 +317,37 @@ int main(){
 //         cout<<endl;   
 //     }
 // }
+
+//TO TAKE ARRAY FROM THE USER AND PRINT THE ELEMENTS OF ARRAY -----
+#include<iostream>
+using namespace std;
+int main(){
+    int arr[100];
+    int n;
+    cout<<"enter the size of array : ";
+    cin>>n;
+    cout<<"enter the elements of array : "<<endl;
+    for(int i=0; i<n;i++){
+        cin>>arr[i];
+    }
+    cout<<"the elements of array are : ";
+    for(int i=0; i<n;i++){
+        cout<<arr[i]<<" ";
+    }
+
+    int index, element;
+    cout<<endl<<"enter the index where you want to insert the element : ";
+    cin>>index;
+    cout<<"enter the element to be inserted : ";
+    cin>>element;
+    for(int i=n-1; i>=index;i--){
+        arr[i+1]=arr[i];
+    }
+    arr[index]=element;
+    n++;
+    cout<<"the updated array is : ";
+    for(int i=0; i<n;i++){
+        cout<<arr[i]<<" ";
+    }
+
+}

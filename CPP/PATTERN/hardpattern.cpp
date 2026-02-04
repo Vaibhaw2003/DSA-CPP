@@ -790,29 +790,67 @@
 
 //TO CHEK THE PRIME NUMBER OR NOT ----------
 
-#include<iostream>
-using namespace std;
-int main(){
-    int n,i,flag=0;
-    cout<<"enter the no : ";
-    cin>>n;
-    for ( i = 2; i <=n-1; i++)
-    {
-        if (n%i==0)
-        {
-            flag=1;
-            break;
-        }
-    }
-    if (flag==0)
-    {
-        cout<<"prime no ";
-    }
-    else
-    {
-        cout<<"not a prime no ";
-    }
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n,i,flag=0;
+//     cout<<"enter the no : ";
+//     cin>>n;
+//     for ( i = 2; i <=n-1; i++)
+//     {
+//         if (n%i==0)
+//         {
+//             flag=1;
+//             break;
+//         }
+//     }
+//     if (flag==0)
+//     {
+//         cout<<"prime no ";
+//     }
+//     else
+//     {
+//         cout<<"not a prime no ";
+//     } 
+// }
 
-    
-    
-}
+//TO PRINT THE HOLLOW DUBBLEP YRAMID PATTERN -----
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int i,j,k,n;
+//     cout<<"enter the no.of row : ";
+//     cin>>n;
+//     for( i = 1; i <=n; i++) //row
+//     {
+//        for(j=1;j<=n-i;j++){
+//         cout<<" ";
+//        }
+//       for ( k = 1; k <=(2*i)-1; k++)
+
+//       {
+//         if(k==1 || k==(2*i)-1)
+//         cout<<"*";
+//         else
+//         cout<<" ";
+//       }
+//       cout<<endl;
+//     }
+
+//      for( i = n-1; i >=1; i--) //row
+//     {
+//        for(j=1;j<=n-i;j++){
+//         cout<<" ";
+//        }
+//       for ( k = 1; k <=(2*i)-1; k++)
+
+//       {
+//         if(k==1 || k==(2*i)-1)
+//         cout<<"*";
+//         else
+//         cout<<" ";
+//       }
+//       cout<<endl;
+//     }
+// }
