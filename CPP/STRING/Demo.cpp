@@ -302,9 +302,9 @@
 // }
 
 
+// ---------- TO PRINT VOWEL, SPACE AND Consonants -----------
 
 #include <stdio.h>
-
 int main() {
     char str[100];
     int vowels = 0, spaces = 0, consonants = 0, i;
