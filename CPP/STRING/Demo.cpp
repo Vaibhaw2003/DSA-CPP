@@ -304,37 +304,51 @@
 
 // ---------- TO PRINT VOWEL, SPACE AND Consonants -----------
 
-#include <stdio.h>
-int main() {
-    char str[100];
-    int vowels = 0, spaces = 0, consonants = 0, i;
+// #include <stdio.h>
+// int main() {
+//     char str[100];
+//     int vowels = 0, spaces = 0, consonants = 0, i;
 
-    printf("Enter a string: ");
-    fgets(str, 100, stdin);
+//     printf("Enter a string: ");
+//     fgets(str, 100, stdin);
 
-    for (i = 0; str[i] != '\0'; i++) {
+//     for (i = 0; str[i] != '\0'; i++) {
 
-        // check space
-        if (str[i] == ' ') {
-            spaces++;
-        }
-        // check vowel
-        else if (str[i]=='a' || str[i]=='e' || str[i]=='i' || 
-                 str[i]=='o' || str[i]=='u' ||
-                 str[i]=='A' || str[i]=='E' || str[i]=='I' || 
-                 str[i]=='O' || str[i]=='U') {
-            vowels++;
-        }
-        // check consonant
-        else if ((str[i] >= 'a' && str[i] <= 'z') || 
-                 (str[i] >= 'A' && str[i] <= 'Z')) {
-            consonants++;
-        }
+//         // check space
+//         if (str[i] == ' ') {
+//             spaces++;
+//         }
+//         // check vowel
+//         else if (str[i]=='a' || str[i]=='e' || str[i]=='i' || 
+//                  str[i]=='o' || str[i]=='u' ||
+//                  str[i]=='A' || str[i]=='E' || str[i]=='I' || 
+//                  str[i]=='O' || str[i]=='U') {
+//             vowels++;
+//         }
+//         // check consonant
+//         else if ((str[i] >= 'a' && str[i] <= 'z') || 
+//                  (str[i] >= 'A' && str[i] <= 'Z')) {
+//             consonants++;
+//         }
+//     }
+
+//     printf("Vowels = %d\n", vowels);
+//     printf("Spaces = %d\n", spaces);
+//     printf("Consonants = %d\n", consonants);
+
+//     return 0;
+// }
+
+//---------- to print the length of a string ---------
+
+#include<iostream>
+#include<string>
+using namespace std;
+int main(){
+    string s = "vaibhaw singh";
+    for(int i =0; i< s.length(); i++){
+        cout<<s[i];
+        
     }
-
-    printf("Vowels = %d\n", vowels);
-    printf("Spaces = %d\n", spaces);
-    printf("Consonants = %d\n", consonants);
-
-    return 0;
+    cout<<s.length();
 }
