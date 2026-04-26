@@ -160,23 +160,47 @@
 
 // TO FIND ELEMENT IN THE ARRAY -------
 
-#include<iostream>
-using namespace std;
-int main(){
-    int n,i;
-    int arr[5]={23,24,55,24,22};
-    cout<<"enter the element which you find :";
-    cin>>n;
-    bool fnd = false;
-    for (i = 0; i < 5; i++)
-    {
-        if (arr[i]==n)
-        {
-            fnd = true;
-            break;
-        } 
-    }
-    cout<<"element is found : "<<arr[i]<<endl;
-    cout<<"index of element is : "<<i<<endl;
-    
-}
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n,i;
+//     int arr[5]={23,24,55,24,22};
+//     cout<<"enter the element which you find :";
+//     cin>>n;
+//     bool fnd = false;
+//     for (i = 0; i < 5; i++)
+//     {
+//         if (arr[i]==n)
+//         {
+//             fnd = true;
+//             break;
+//         } 
+//     }
+//     cout<<"element is found : "<<arr[i]<<endl;
+//     cout<<"index of element is : "<<i<<endl; 
+// }
+
+
+// TO FIND THE MAXIMUM AND MINIMUM ELEMENT IN THE ARRAY-----
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int max,min;
+//     cout<<"the elements of array are : "<<endl;
+//     cin>>max>>min;
+//     int arr[5] = {1,2,3,4,5};
+//     for (int i = 0; i < 5; i++)
+//     {
+//         if (arr[i]>max)
+//         {
+//             max=arr[i];
+//         }
+//         if (arr[i]<min)
+//         {
+//             min=arr[i];
+//         }
+//     }
+//     cout<<"the maximum element in the array is : "<<max<<endl;
+//     cout<<"the minimum element in the array is : "<<min<<endl;
+// }
