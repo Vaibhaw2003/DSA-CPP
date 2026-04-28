@@ -204,3 +204,16 @@
 //     cout<<"the maximum element in the array is : "<<max<<endl;
 //     cout<<"the minimum element in the array is : "<<min<<endl;
 // }
+
+//-----------  TO PRINT THE REVERSE OF THE ARRAY-----
+
+#include<iostream>
+using namespace std;
+int main(){
+    int arr[5] = {1,2,3,4,5};
+    cout<<"the reverse of the array is : "<<endl;
+    for (int i = 4; i >= 0; i--)
+    {
+        cout<<arr[i]<<endl;
+    }
+}
