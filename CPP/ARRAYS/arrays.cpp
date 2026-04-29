@@ -221,6 +221,20 @@
 
 //----------- TO PRINT THE SUM OF THE ARRAY ELEMENTS -----
 
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int arr[5] = {1,2,3,4,5};
+//     int sum = 0;
+//     for (int i = 0; i < 5; i++)
+//     {
+//         sum += arr[i];
+//     }
+//     cout<<"the sum of the array elements is : "<<sum<<endl;
+// }
+
+//----------- TO PRINT THE AVERAGE OF THE ARRAY ELEMENTS -----
+
 #include<iostream>
 using namespace std;
 int main(){
@@ -229,7 +243,7 @@ int main(){
     for (int i = 0; i < 5; i++)
     {
         sum += arr[i];
-    }
-    cout<<"the sum of the array elements is : "<<sum<<endl;
+    }   
+    float average = sum/5.0;
+    cout<<"the average of the array elements is : "<<average<<endl;
 }
-
