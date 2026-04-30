@@ -235,15 +235,39 @@
 
 //----------- TO PRINT THE AVERAGE OF THE ARRAY ELEMENTS -----
 
-#include<iostream>
-using namespace std;
-int main(){
-    int arr[5] = {1,2,3,4,5};
-    int sum = 0;
-    for (int i = 0; i < 5; i++)
-    {
-        sum += arr[i];
-    }   
-    float average = sum/5.0;
-    cout<<"the average of the array elements is : "<<average<<endl;
-}
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int arr[5] = {1,2,3,4,5};
+//     int sum = 0;
+//     for (int i = 0; i < 5; i++)
+//     {
+//         sum += arr[i];
+//     }   
+//     float average = sum/5.0;
+//     cout<<"the average of the array elements is : "<<average<<endl;
+// }
+
+//----------- TO PRINT THE SECOND LARGEST ELEMENT IN THE ARRAY -----
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int arr[5] = {1,2,3,4,5};
+//     int largest = arr[0];
+//     int second_largest = arr[0];
+//     for (int i = 1; i < 5; i++)
+//     {
+//         if (arr[i]>largest)
+//         {
+//             second_largest = largest;
+//             largest = arr[i];
+//         }
+//         else if (arr[i]>second_largest && arr[i]!=largest)
+//         {
+//             second_largest = arr[i];
+//         }
+//     }
+//     cout<<"the second largest element in the array is : "<<second_largest<<endl;
+// }   
+
