@@ -271,3 +271,26 @@
 //     cout<<"the second largest element in the array is : "<<second_largest<<endl;
 // }   
 
+//----------- TO PRINT THE SECOND SMALLEST ELEMENT IN THE ARRAY -----
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int arr[5] = {1,2,3,4,5};
+//     int smallest = arr[0];
+//     int second_smallest = arr[0];
+//     for (int i = 1; i < 5; i++)
+//     {
+//         if (arr[i]<smallest)
+//         {
+//             second_smallest = smallest;
+//             smallest = arr[i];
+//         }
+//         else if (arr[i]<second_smallest && arr[i]!=smallest)
+//         {
+//             second_smallest = arr[i];
+//         }
+//     }
+//     cout<<"the second smallest element in the array is : "<<second_smallest<<endl;
+// }   
+
