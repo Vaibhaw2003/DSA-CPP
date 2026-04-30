@@ -341,14 +341,28 @@
 
 //---------- to print the length of a string ---------
 
-#include<iostream>
-#include<string>
-using namespace std;
-int main(){
-    string s = "vaibhaw singh";
-    for(int i =0; i< s.length(); i++){
-        cout<<s[i];
+// #include<iostream>
+// #include<string>
+// using namespace std;
+// int main(){
+//     string s = "vaibhaw singh";
+//     for(int i =0; i< s.length(); i++){
+//         cout<<s[i];
         
-    }
-    cout<<s.length();
-}
+//     }
+//     cout<<s.length();
+// }
+
+//---------- to print the length of a string ---------
+
+// #include<iostream>
+// #include<string>
+// using namespace std;
+// int main(){
+//     string s = "vaibhaw singh";
+//     for (int  i = 0; i < s.length(); i++)
+//     {
+//         /* code */
+//     }
+//     cout << s.length();
+// }
