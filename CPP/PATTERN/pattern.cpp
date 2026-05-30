@@ -21,8 +21,6 @@
 // }
 
 
-
-
 // TO PRINT THISE PATTERN
     //   12345
     //   1234
@@ -105,8 +103,6 @@
 //     }
 
 
-
-
 // 06 TO PRINT THISE PATTER
     //   1
     //   21
@@ -167,10 +163,6 @@ int main(){
 //     }
 //     return 0;
 // }
-
-
-
-
 
 
 
