@@ -30,8 +30,7 @@ else {
 }
 
 
-
-    // --------05 TO PRINT THE FACTORIAL OF N NUMBER-------
+// --------05 TO PRINT THE FACTORIAL OF N NUMBER-------
 
 // int n ,i, fact= 1;
 // cout<<"enter the number: ";
@@ -44,8 +43,7 @@ else {
 // }
 
 
-
-    //------- 04 SUM OF N NATURAL NUMBER --------
+//------- 04 SUM OF N NATURAL NUMBER --------
 
 // int n, sum=0 ;
 
@@ -60,9 +58,7 @@ else {
 // }
 
 
-
-
-    // --------01 = TO PRINT THE POWER OF NUMBER -------
+// --------01 = TO PRINT THE POWER OF NUMBER -------
 
 // int n, pow ,i,num;
 
@@ -81,8 +77,7 @@ else {
 // cout<<"power of number: "<<" "<<num;
 
 
-
-      // ---------02 = TO PRINT THE TABLE OF ANY NUMBER : 
+// ---------02 = TO PRINT THE TABLE OF ANY NUMBER : 
 
 // int n, mul;
 // cout<<"enter a nmber to print the table: ";
@@ -94,8 +89,7 @@ else {
 // }
 
 
-
-     // ---------03 TO PRINT THE NUMBER DIFFRENCE OF 3 ----
+// ---------03 TO PRINT THE NUMBER DIFFRENCE OF 3 ----
      
 // int n, i;
 // for ( i = 1; i <=100; i=i+3)
