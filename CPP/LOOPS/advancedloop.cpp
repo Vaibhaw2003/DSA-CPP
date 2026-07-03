@@ -29,7 +29,6 @@ else {
             return 0;
 }
 
-
 // --------05 TO PRINT THE FACTORIAL OF N NUMBER-------
 
 // int n ,i, fact= 1;
@@ -41,7 +40,6 @@ else {
 //     fact =fact*i;
 //     cout<<fact<<" ";
 // }
-
 
 //------- 04 SUM OF N NATURAL NUMBER --------
 
