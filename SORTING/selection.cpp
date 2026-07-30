@@ -11,7 +11,6 @@ int main(){
     int arr[n];
     cout<<"Enter elements: ";
     for(int i=0;i<n;i++) cin>>arr[i];
-
     //selection sort
     for(int i=0;i<n-1;i++){
         int minIndex = i;
