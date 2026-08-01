@@ -7,11 +7,9 @@
 //     if(n==0){
 //     return;
 //     }
-
 //     cout<<n<<" ";
 //     printnum (  n*(n-1) );
 // }
-
 // int main(){
 //     printnum(4);
 //     return 0;
