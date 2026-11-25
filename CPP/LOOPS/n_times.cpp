@@ -16,8 +16,6 @@
 //     }
 // }
         
-
-
 //------to print the sum of array------
 
 // #include<iostream>
@@ -33,7 +31,6 @@
 //    }
 //    cout<<endl;
 // }
-
 
 
 // ---------To print the sum of all the number of user-------
@@ -57,7 +54,6 @@
 //    }cout<<endl;
    
 // }
-
 
 //  -------TO PRINT THE TABBLE OF N NUMBER-------
 // #include<iostream>
